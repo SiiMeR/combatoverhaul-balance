@@ -4,8 +4,8 @@
     "path": "/behaviors/0/properties/ResistsByType/*-steel-*",
     "op": "replace",
     "value": {
-      "PiercingAttack": 6,
-      "SlashingAttack": 6,
+      "PiercingAttack": 4,
+      "SlashingAttack": 4,
       "BluntAttack": 4
     },
     "dependsOn": [
@@ -20,7 +20,7 @@
     "op": "replace",
     "value": {
       "*-torso-*": {
-        "walkspeed": -0.04,
+        "walkspeed": -0.15,
         "manipulationSpeed": -0.08,
         "steadyAim": 0,
         "healingeffectivness": -0.03,
@@ -41,14 +41,14 @@
         "hungerrate": 0.05
       },
       "*-legs-*": {
-        "walkspeed": -0.06,
+        "walkspeed": -0.07,
         "manipulationSpeed": 0,
         "steadyAim": 0,
         "healingeffectivness": -0.03,
         "hungerrate": 0.05
       },
       "*-feet-*": {
-        "walkspeed": -0.06,
+        "walkspeed": 0,
         "manipulationSpeed": 0,
         "steadyAim": 0,
         "healingeffectivness": -0.03,

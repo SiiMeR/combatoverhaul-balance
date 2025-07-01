@@ -6,7 +6,7 @@
     "SiiMeR"
   ],
   "description": "Balances the values of the Combat Overhaul mod.",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "dependencies": {
     "game": "",
     "combatoverhaul": "",

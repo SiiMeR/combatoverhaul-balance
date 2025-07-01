@@ -1,0 +1,95 @@
+[
+  {
+    "file": "armory:itemtypes/armor/plate-helmets.json",
+    "path": "/behaviors/0/properties/ResistsByType/*-steel-riveted",
+    "op": "replace",
+    "value": {
+      "PiercingAttack": 5,
+      "SlashingAttack": 6,
+      "BluntAttack": 3
+    },
+    "dependsOn": [
+      {
+        "modid": "armory"
+      }
+    ]
+  },
+  {
+    "file": "armory:itemtypes/armor/plate-helmets.json",
+    "path": "/behaviors/0/properties/ResistsByType/*-*iron-riveted",
+    "op": "replace",
+    "value": {
+      "PiercingAttack": 4,
+      "SlashingAttack": 4,
+      "BluntAttack": 2
+    },
+    "dependsOn": [
+      {
+        "modid": "armory"
+      }
+    ]
+  },
+  {
+    "file": "armory:itemtypes/armor/plate-helmets.json",
+    "path": "/behaviors/0/properties/ResistsByType/*-steel-*",
+    "op": "replace",
+    "value": {
+      "PiercingAttack": 5,
+      "SlashingAttack": 6,
+      "BluntAttack": 5
+    },
+    "dependsOn": [
+      {
+        "modid": "armory"
+      }
+    ]
+  },
+  {
+    "file": "armory:itemtypes/armor/plate-helmets.json",
+    "path": "/behaviors/0/properties/ResistsByType/*-*iron-*",
+    "op": "replace",
+    "value": {
+      "PiercingAttack": 4,
+      "SlashingAttack": 4,
+      "BluntAttack": 3
+    },
+    "dependsOn": [
+      {
+        "modid": "armory"
+      }
+    ]
+  },
+  {
+    "file": "armory:itemtypes/armor/plate-helmets.json",
+    "path": "/behaviors/0/properties/PlayerStatsByType",
+    "op": "replace",
+    "value": {
+      "*-open": {
+        "walkspeed": 0,
+        "manipulationSpeed": 0,
+        "steadyAim": 0,
+        "healingeffectivness": -0.03,
+        "hungerrate": 0.05
+      },
+      "*-light": {
+        "walkspeed": 0,
+        "manipulationSpeed": 0,
+        "steadyAim": -0.1,
+        "healingeffectivness": -0.06,
+        "hungerrate": 0.1
+      },
+      "*-riveted": {
+        "walkspeed": 0,
+        "manipulationSpeed": 0,
+        "steadyAim": -0.1,
+        "healingeffectivness": -0.06,
+        "hungerrate": 0.1
+      }
+    },
+    "dependsOn": [
+      {
+        "modid": "armory"
+      }
+    ]
+  }
+]

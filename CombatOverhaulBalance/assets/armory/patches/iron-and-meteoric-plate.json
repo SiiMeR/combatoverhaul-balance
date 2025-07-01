@@ -1,0 +1,17 @@
+[
+  {
+    "file": "armory:itemtypes/armor/plate.json",
+    "path": "/behaviors/0/properties/ResistsByType/*-*iron-*",
+    "op": "replace",
+    "value": {
+      "PiercingAttack": 5,
+      "SlashingAttack": 4,
+      "BluntAttack": 5
+    },
+    "dependsOn": [
+      {
+        "modid": "armory"
+      }
+    ]
+  }
+]
