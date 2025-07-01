@@ -1,0 +1,221 @@
+[
+  {
+    "file": "armory:itemtypes/weapons/sword-great.json",
+    "path": "/attributes/TwoHandedStance/Attack/DamageTypesByType/*-steel",
+    "op": "replace",
+    "value": [
+      {
+        "Damage": {
+          "DamageType": "SlashingAttack",
+          "Strength": 8,
+          "Damage": 8
+        },
+        "Knockback": 1,
+        "DurabilityDamage": 1,
+        "Collider": [
+          0.5,
+          0,
+          0.5,
+          3.8,
+          0,
+          0.5
+        ]
+      }
+    ],
+    "dependsOn": [
+      {
+        "modid": "armory"
+      }
+    ]
+  },
+  {
+    "file": "armory:itemtypes/weapons/sword-long.json",
+    "path": "/attributes/OneHandedStance/Attack/DamageTypesByType/*-steel",
+    "op": "replace",
+    "value": [
+      {
+        "Damage": {
+          "DamageType": "SlashingAttack",
+          "Strength": 8,
+          "Damage": 5
+        },
+        "Knockback": 0,
+        "DurabilityDamage": 1,
+        "Collider": [
+          0.5,
+          0,
+          0.5,
+          3.1,
+          0,
+          0.5
+        ]
+      }
+    ],
+    "dependsOn": [
+      {
+        "modid": "armory"
+      }
+    ]
+  },
+  {
+    "file": "armory:itemtypes/weapons/sword-long.json",
+    "path": "/attributes/TwoHandedStance/Attack/DamageTypesByType/*-steel",
+    "op": "replace",
+    "value": [
+      {
+        "Damage": {
+          "DamageType": "SlashingAttack",
+          "Strength": 8,
+          "Damage": 6
+        },
+        "Knockback": 0,
+        "DurabilityDamage": 1,
+        "Collider": [
+          0.5,
+          0,
+          0.5,
+          3.1,
+          0,
+          0.5
+        ]
+      }
+    ],
+    "dependsOn": [
+      {
+        "modid": "armory"
+      }
+    ]
+  },
+  {
+    "file": "armory:itemtypes/weapons/axe-long.json",
+    "path": "/attributes/TwoHandedStance/Attack/DamageTypesByType/*-steel",
+    "op": "replace",
+    "value": [
+      {
+        "Damage": {
+          "DamageType": "SlashingAttack",
+          "Strength": 8,
+          "Damage": 8
+        },
+        "Knockback": 0,
+        "DurabilityDamage": 1,
+        "Collider": [
+          0.2,
+          0.5,
+          0.5,
+          0.8,
+          0.5,
+          0.5
+        ]
+      }
+    ],
+    "dependsOn": [
+      {
+        "modid": "armory"
+      }
+    ]
+  },
+  {
+    "file": "armory:itemtypes/weapons/quarterstaff.json",
+    "path": "/attributes/TwoHandedStance/Attack/DamageTypes/0/DamageByType/*-steel",
+    "op": "replace",
+    "value": {
+      "DamageType": "BluntAttack",
+      "Tier": 7,
+      "Damage": 9
+    },
+    "dependsOn": [
+      {
+        "modid": "armory"
+      }
+    ]
+  },
+  {
+    "file": "armory:itemtypes/weapons/mace.json",
+    "path": "/attributes/OneHandedStance/Attack/DamageTypesByType/*-steel",
+    "op": "replace",
+    "value": [
+      {
+        "Damage": {
+          "DamageType": "BluntAttack",
+          "Strength": 10,
+          "Damage": 4
+        },
+        "Knockback": 0,
+        "DurabilityDamage": 1,
+        "Collider": [
+          0.2,
+          0.5,
+          0.5,
+          0.8,
+          0.5,
+          0.5
+        ]
+      }
+    ],
+    "dependsOn": [
+      {
+        "modid": "armory"
+      }
+    ]
+  },
+  // TODO PERNACH
+  {
+    "file": "armory:itemtypes/weapons/club.json",
+    "path": "/attributes/OneHandedStance/Attack/DamageTypesByType/*-steel",
+    "op": "replace",
+    "value": [
+      {
+        "Damage": {
+          "DamageType": "BluntAttack",
+          "Strength": 9,
+          "Damage": 6
+        },
+        "Knockback": 0,
+        "DurabilityDamage": 1,
+        "Collider": [
+          1,
+          0,
+          0.5,
+          2.8,
+          -0.3,
+          0.5
+        ]
+      }
+    ],
+    "dependsOn": [
+      {
+        "modid": "armory"
+      }
+    ]
+  },
+  {
+    "file": "armory:itemtypes/weapons/club.json",
+    "path": "/attributes/TwoHandedStance/Attack/DamageTypesByType/*-steel",
+    "op": "replace",
+    "value": [
+      {
+        "Damage": {
+          "DamageType": "BluntAttack",
+          "Strength": 9,
+          "Damage": 6
+        },
+        "Knockback": 0,
+        "DurabilityDamage": 1,
+        "Collider": [
+          1,
+          0,
+          0.5,
+          2.8,
+          -0.3,
+          0.5
+        ]
+      }
+    ],
+    "dependsOn": [
+      {
+        "modid": "armory"
+      }
+    ]
+  }
+] 

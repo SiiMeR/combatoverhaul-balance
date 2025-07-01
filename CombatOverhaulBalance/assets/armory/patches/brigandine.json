@@ -1,0 +1,64 @@
+[
+  {
+    "file": "armory:itemtypes/armor/brigandine.json",
+    "path": "/behaviors/0/properties/ResistsByType/*-steel-*",
+    "op": "replace",
+    "value": {
+      "PiercingAttack": 6,
+      "SlashingAttack": 6,
+      "BluntAttack": 4
+    },
+    "dependsOn": [
+      {
+        "modid": "armory"
+      }
+    ]
+  },
+  {
+    "file": "armory:itemtypes/armor/brigandine.json",
+    "path": "/behaviors/0/properties/PlayerStatsByType",
+    "op": "replace",
+    "value": {
+      "*-torso-*": {
+        "walkspeed": -0.04,
+        "manipulationSpeed": -0.08,
+        "steadyAim": 0,
+        "healingeffectivness": -0.03,
+        "hungerrate": 0.05
+      },
+      "*-arms-*": {
+        "walkspeed": 0,
+        "manipulationSpeed": -0.07,
+        "steadyAim": -0.1,
+        "healingeffectivness": -0.03,
+        "hungerrate": 0.05
+      },
+      "*-hands-*": {
+        "walkspeed": 0,
+        "manipulationSpeed": -0.05,
+        "steadyAim": -0.1,
+        "healingeffectivness": -0.03,
+        "hungerrate": 0.05
+      },
+      "*-legs-*": {
+        "walkspeed": -0.06,
+        "manipulationSpeed": 0,
+        "steadyAim": 0,
+        "healingeffectivness": -0.03,
+        "hungerrate": 0.05
+      },
+      "*-feet-*": {
+        "walkspeed": -0.06,
+        "manipulationSpeed": 0,
+        "steadyAim": 0,
+        "healingeffectivness": -0.03,
+        "hungerrate": 0.05
+      }
+    },
+    "dependsOn": [
+      {
+        "modid": "armory"
+      }
+    ]
+  }
+]

@@ -1,0 +1,49 @@
+[
+  {
+    "file": "armory:itemtypes/armor/plate.json",
+    "path": "/behaviors/0/properties/PlayerStatsByType",
+    "op": "replace",
+    "value": {
+      "*-torso-*": {
+        "walkspeed": -0.20,
+        "manipulationSpeed": -0.20,
+        "steadyAim": 0,
+        "healingeffectivness": -0.03,
+        "hungerrate": 0.05
+      },
+      "*-arms-*": {
+        "walkspeed": 0,
+        "manipulationSpeed": -0.05,
+        "steadyAim": -0.1,
+        "healingeffectivness": -0.03,
+        "hungerrate": 0.05
+      },
+      "*-hands-*": {
+        "walkspeed": 0,
+        "manipulationSpeed": -0.05,
+        "steadyAim": -0.1,
+        "healingeffectivness": -0.03,
+        "hungerrate": 0.05
+      },
+      "*-legs-*": {
+        "walkspeed": -0.06,
+        "manipulationSpeed": 0,
+        "steadyAim": 0,
+        "healingeffectivness": -0.03,
+        "hungerrate": 0.05
+      },
+      "*-feet-*": {
+        "walkspeed": -0.06,
+        "manipulationSpeed": 0,
+        "steadyAim": 0,
+        "healingeffectivness": -0.03,
+        "hungerrate": 0.05
+      }
+    },
+    "dependsOn": [
+      {
+        "modid": "armory"
+      }
+    ]
+  }
+]

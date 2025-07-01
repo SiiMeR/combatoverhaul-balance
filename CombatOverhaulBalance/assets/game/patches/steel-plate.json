@@ -1,0 +1,79 @@
+[
+  {
+    "file": "game:itemtypes/wearable/seraph/armor.json",
+    "path": "/behaviors/0/propertiesByType/armor-body-plate-steel",
+    "op": "replace",
+    "value": {
+      "Layers": [
+        "Outer"
+      ],
+      "Zones": [
+        "Torso",
+        "Arms",
+        "Hands"
+      ],
+      "Resists": {
+        "PiercingAttack": 7,
+        "SlashingAttack": 7,
+        "BluntAttack": 6
+      },
+      "FlatReduction": {},
+      "PlayerStats": {
+        "walkspeed": -0.20,
+        "manipulationSpeed": -0.20,
+        "steadyAim": -0.2,
+        "healingeffectivness": -0.09,
+        "hungerrate": 0.15
+      }
+    },
+    "dependsOn": [
+      {
+        "modid": "armory"
+      },
+      {
+        "modid": "anmitechco"
+      },
+      {
+        "modid": "combatoverhaul"
+      }
+    ]
+  },
+  {
+    "file": "game:itemtypes/wearable/seraph/armor.json",
+    "path": "/behaviors/0/propertiesByType/armor-legs-plate-steel",
+    "op": "replace",
+    "value": {
+      "Layers": [
+        "Outer"
+      ],
+      "Zones": [
+        "Legs",
+        "Feet"
+      ],
+      "Resists": {
+        "PiercingAttack": 7,
+        "SlashingAttack": 7,
+        "BluntAttack": 6
+      },
+      "FlatReduction": {},
+      "PlayerStats": {
+        "walkspeed": -0.12,
+        "manipulationSpeed": 0,
+        "steadyAim": 0,
+        "healingeffectivness": -0.06,
+        "hungerrate": 0.1
+      }
+    },
+    "dependsOn": [
+      {
+        "modid": "armory"
+      },
+      {
+        "modid": "anmitechco"
+      },
+      {
+        "modid": "combatoverhaul"
+      }
+    ]
+  }
+]

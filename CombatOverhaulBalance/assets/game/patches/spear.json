@@ -1,0 +1,32 @@
+//[
+//  {
+//    "file": "game:itemtypes/tool/spear.json",
+//    "path": "/attributes/OneHandedStance/Attack/DamageTypes/0/DamageByType/*-steel",
+//    "op": "replace",
+//    "value": {
+//      "DamageType": "PiercingAttack",
+//      "Tier": 7,
+//      "Damage": 5
+//    },
+//    "dependsOn": [
+//      {
+//        "modid": "anmitechco"
+//      }
+//    ]
+//  },
+//  {
+//    "file": "game:itemtypes/tool/spear.json",
+//    "path": "/attributes/TwoHandedStance/Attack/DamageTypes/0/DamageByType/*-steel",
+//    "op": "replace",
+//    "value": {
+//      "DamageType": "PiercingAttack",
+//      "Tier": 7,
+//      "Damage": 5
+//    },
+//    "dependsOn": [
+//      {
+//        "modid": "anmitechco"
+//      }
+//    ]
+//  }
+//]

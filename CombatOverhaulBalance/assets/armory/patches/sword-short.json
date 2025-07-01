@@ -1,0 +1,34 @@
+[
+  {
+    "file": "armory:itemtypes/weapons/sword-short.json",
+    "path": "/attributes/OneHandedStance/Attack/DamageTypesByType/*-steel",
+    "op": "replace",
+    "value": [
+      {
+        "Damage": {
+          "DamageType": "SlashingAttack",
+          "Strength": 9,
+          "Damage": 3
+        },
+        "Knockback": 1,
+        "DurabilityDamage": 1,
+        "Collider": [
+          0.6,
+          0,
+          0.5,
+          2.6,
+          0,
+          0.5
+        ]
+      }
+    ],
+    "dependsOn": [
+      {
+        "modid": "armory"
+      },
+      {
+        "modid": "anmitechco"
+      }
+    ]
+  }
+]

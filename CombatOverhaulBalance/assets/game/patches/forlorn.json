@@ -1,0 +1,81 @@
+[
+  {
+    "file": "game:itemtypes/wearable/seraph/armor",
+    "op": "replace",
+    "path": "/behaviors/0/propertiesByType/armor-head-antique-forlorn-pristine/Resists",
+    "value": {
+      "PiercingAttack": 5,
+      "SlashingAttack": 5,
+      "BluntAttack": 4
+    },
+    "dependsOn": [
+      {
+        "modid": "combatoverhaul"
+      }
+    ]
+  },
+  {
+    "file": "game:itemtypes/wearable/seraph/armor",
+    "op": "replace",
+    "path": "/behaviors/0/propertiesByType/armor-body-antique-forlorn-pristine/Resists",
+    "value": {
+      "PiercingAttack": 5,
+      "SlashingAttack": 5,
+      "BluntAttack": 4
+    },
+    "dependsOn": [
+      {
+        "modid": "combatoverhaul"
+      }
+    ]
+  },
+  {
+    "file": "game:itemtypes/wearable/seraph/armor",
+    "op": "replace",
+    "path": "/behaviors/0/propertiesByType/armor-body-antique-forlorn-pristine/PlayerStats",
+    "value": {
+      "walkspeed": -0.10,
+      "manipulationSpeed": -0.12,
+      "steadyAim": -0.1,
+      "healingeffectivness": -0.04,
+      "hungerrate": 0.07
+    },
+    "dependsOn": [
+      {
+        "modid": "combatoverhaul"
+      }
+    ]
+  },
+  {
+    "file": "game:itemtypes/wearable/seraph/armor",
+    "op": "replace",
+    "path": "/behaviors/0/propertiesByType/armor-legs-antique-forlorn-pristine/Resists",
+    "value": {
+      "PiercingAttack": 5,
+      "SlashingAttack": 5,
+      "BluntAttack": 4
+    },
+    "dependsOn": [
+      {
+        "modid": "combatoverhaul"
+      }
+    ]
+  },
+  {
+    "file": "game:itemtypes/wearable/seraph/armor",
+    "op": "replace",
+    "path": "/behaviors/0/propertiesByType/armor-legs-antique-forlorn-pristine/PlayerStats",
+    "value": {
+      "walkspeed": -0.14,
+      "manipulationSpeed": 0,
+      "steadyAim": 0,
+      "healingeffectivness": -0.03,
+      "hungerrate": 0.05
+    },
+    "dependsOn": [
+      {
+        "modid": "combatoverhaul"
+      }
+    ]
+  }
+]

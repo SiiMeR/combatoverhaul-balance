@@ -1,0 +1,16 @@
+{
+  "type": "content",
+  "modid": "combatoverhaulbalance",
+  "name": "CombatOverhaulBalance",
+  "authors": [
+    "SiiMeR"
+  ],
+  "description": "Balances the values of the Combat Overhaul mod.",
+  "version": "1.2.0",
+  "dependencies": {
+    "game": "",
+    "combatoverhaul": "",
+    "armory": "",
+    "anmitechco": ""
+  }
+}
