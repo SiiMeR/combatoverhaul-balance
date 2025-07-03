@@ -16,6 +16,21 @@
   },
   {
     "file": "armory:itemtypes/armor/brigandine.json",
+    "path": "/behaviors/0/properties/ResistsByType/*-*iron-*",
+    "op": "replace",
+    "value": {
+      "PiercingAttack": 3,
+      "SlashingAttack": 3,
+      "BluntAttack": 3
+    },
+    "dependsOn": [
+      {
+        "modid": "armory"
+      }
+    ]
+  },
+  {
+    "file": "armory:itemtypes/armor/brigandine.json",
     "path": "/behaviors/0/properties/PlayerStatsByType",
     "op": "replace",
     "value": {
