@@ -1,7 +1,7 @@
 [
   {
     "file": "armory:itemtypes/armor/plate.json",
-    "path": "/behaviors/0/properties/ResistsByType/*-*iron-*",
+    "path": "/behaviors/0/properties/ResistsByType/*-gold-*",
     "op": "replace",
     "value": {
       "PiercingAttack": 5,

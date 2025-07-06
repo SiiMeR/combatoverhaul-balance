@@ -1,0 +1,47 @@
+[
+  {
+    "file": "game:itemtypes/wearable/seraph/armor",
+    "op": "replace",
+    "path": "/behaviors/0/propertiesByType/armor-head-antique-blackguard-damaged/Resists",
+    "value": {
+      "PiercingAttack": 1,
+      "SlashingAttack": 1,
+      "BluntAttack": 1
+    },
+    "dependsOn": [
+      {
+        "modid": "combatoverhaul"
+      }
+    ]
+  },
+  {
+    "file": "game:itemtypes/wearable/seraph/armor",
+    "op": "replace",
+    "path": "/behaviors/0/propertiesByType/armor-body-antique-blackguard-damaged/Resists",
+    "value": {
+      "PiercingAttack": 1,
+      "SlashingAttack": 1,
+      "BluntAttack": 1
+    },
+    "dependsOn": [
+      {
+        "modid": "combatoverhaul"
+      }
+    ]
+  },
+  {
+    "file": "game:itemtypes/wearable/seraph/armor",
+    "op": "replace",
+    "path": "/behaviors/0/propertiesByType/armor-legs-antique-blackguard-damaged/Resists",
+    "value": {
+      "PiercingAttack": 1,
+      "SlashingAttack": 1,
+      "BluntAttack": 1
+    },
+    "dependsOn": [
+      {
+        "modid": "combatoverhaul"
+      }
+    ]
+  }
+]

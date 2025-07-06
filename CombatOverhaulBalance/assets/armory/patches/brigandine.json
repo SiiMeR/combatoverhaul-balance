@@ -49,9 +49,9 @@
     "path": "/behaviors/0/properties/ResistsByType/*-copper-*",
     "op": "replace",
     "value": {
-      "PiercingAttack": 2,
-      "SlashingAttack": 2,
-      "BluntAttack": 2
+      "PiercingAttack": 3,
+      "SlashingAttack": 3,
+      "BluntAttack": 3
     },
     "dependsOn": [
       {
@@ -65,28 +65,28 @@
     "op": "replace",
     "value": {
       "*-torso-*": {
-        "walkspeed": -0.15,
-        "manipulationSpeed": -0.08,
+        "walkspeed": -0.06,
+        "manipulationSpeed": -0.1,
         "steadyAim": 0,
         "healingeffectivness": -0.03,
         "hungerrate": 0.05
       },
       "*-arms-*": {
         "walkspeed": 0,
-        "manipulationSpeed": -0.07,
+        "manipulationSpeed": 0,
         "steadyAim": -0.1,
         "healingeffectivness": -0.03,
         "hungerrate": 0.05
       },
       "*-hands-*": {
         "walkspeed": 0,
-        "manipulationSpeed": -0.05,
+        "manipulationSpeed": 0,
         "steadyAim": -0.1,
         "healingeffectivness": -0.03,
         "hungerrate": 0.05
       },
       "*-legs-*": {
-        "walkspeed": -0.07,
+        "walkspeed": -0.02,
         "manipulationSpeed": 0,
         "steadyAim": 0,
         "healingeffectivness": -0.03,

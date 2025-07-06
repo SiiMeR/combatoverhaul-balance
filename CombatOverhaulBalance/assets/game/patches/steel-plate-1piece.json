@@ -19,8 +19,8 @@
       },
       "FlatReduction": {},
       "PlayerStats": {
-        "walkspeed": -0.20,
-        "manipulationSpeed": -0.20,
+        "walkspeed": -0.12,
+        "manipulationSpeed": -0.15,
         "steadyAim": -0.2,
         "healingeffectivness": -0.09,
         "hungerrate": 0.15
@@ -57,7 +57,7 @@
       },
       "FlatReduction": {},
       "PlayerStats": {
-        "walkspeed": -0.12,
+        "walkspeed": -0.04,
         "manipulationSpeed": 0,
         "steadyAim": 0,
         "healingeffectivness": -0.06,

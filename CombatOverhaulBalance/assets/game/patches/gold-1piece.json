@@ -1,7 +1,7 @@
-﻿[
+[
   {
     "file": "game:itemtypes/wearable/seraph/armor.json",
-    "path": "/behaviors/0/propertiesByType/armor-head-brigandine-*bronze",
+    "path": "/behaviors/0/propertiesByType/armor-head-plate-gold",
     "op": "replace",
     "value": {
       "Layers": [
@@ -13,9 +13,9 @@
         "Face"
       ],
       "Resists": {
-        "PiercingAttack": 3,
-        "SlashingAttack": 3,
-        "BluntAttack": 3
+        "PiercingAttack": 5,
+        "SlashingAttack": 5,
+        "BluntAttack": 4
       },
       "FlatReduction": {},
       "PlayerStats": {
@@ -40,7 +40,7 @@
   },
   {
     "file": "game:itemtypes/wearable/seraph/armor.json",
-    "path": "/behaviors/0/propertiesByType/armor-body-brigandine-*bronze",
+    "path": "/behaviors/0/propertiesByType/armor-body-plate-gold",
     "op": "replace",
     "value": {
       "Layers": [
@@ -52,14 +52,14 @@
         "Hands"
       ],
       "Resists": {
-        "PiercingAttack": 3,
-        "SlashingAttack": 3,
-        "BluntAttack": 3
+        "PiercingAttack": 5,
+        "SlashingAttack": 5,
+        "BluntAttack": 4
       },
       "FlatReduction": {},
       "PlayerStats": {
-        "walkspeed": -0.06,
-        "manipulationSpeed": -0.1,
+        "walkspeed": -0.04,
+        "manipulationSpeed": -0.15,
         "steadyAim": -0.2,
         "healingeffectivness": -0.09,
         "hungerrate": 0.15
@@ -79,7 +79,7 @@
   },
   {
     "file": "game:itemtypes/wearable/seraph/armor.json",
-    "path": "/behaviors/0/propertiesByType/armor-legs-brigandine-*bronze",
+    "path": "/behaviors/0/propertiesByType/armor-legs-plate-gold",
     "op": "replace",
     "value": {
       "Layers": [
@@ -90,13 +90,13 @@
         "Feet"
       ],
       "Resists": {
-        "PiercingAttack": 3,
-        "SlashingAttack": 3,
-        "BluntAttack": 3
+        "PiercingAttack": 5,
+        "SlashingAttack": 5,
+        "BluntAttack": 4
       },
       "FlatReduction": {},
       "PlayerStats": {
-        "walkspeed": -0.02,
+        "walkspeed": -0.12,
         "manipulationSpeed": 0,
         "steadyAim": 0,
         "healingeffectivness": -0.06,

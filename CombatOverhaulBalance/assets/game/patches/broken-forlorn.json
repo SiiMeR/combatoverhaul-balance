@@ -1,0 +1,47 @@
+[
+  {
+    "file": "game:itemtypes/wearable/seraph/armor",
+    "op": "replace",
+    "path": "/behaviors/0/propertiesByType/armor-head-antique-forlorn-broken/Resists",
+    "value": {
+      "PiercingAttack": 1,
+      "SlashingAttack": 1,
+      "BluntAttack": 1
+    },
+    "dependsOn": [
+      {
+        "modid": "combatoverhaul"
+      }
+    ]
+  },
+  {
+    "file": "game:itemtypes/wearable/seraph/armor",
+    "op": "replace",
+    "path": "/behaviors/0/propertiesByType/armor-body-antique-forlorn-broken/Resists",
+    "value": {
+      "PiercingAttack": 1,
+      "SlashingAttack": 1,
+      "BluntAttack": 1
+    },
+    "dependsOn": [
+      {
+        "modid": "combatoverhaul"
+      }
+    ]
+  },
+  {
+    "file": "game:itemtypes/wearable/seraph/armor",
+    "op": "replace",
+    "path": "/behaviors/0/propertiesByType/armor-legs-antique-forlorn-broken/Resists",
+    "value": {
+      "PiercingAttack": 1,
+      "SlashingAttack": 1,
+      "BluntAttack": 1
+    },
+    "dependsOn": [
+      {
+        "modid": "combatoverhaul"
+      }
+    ]
+  }
+]
