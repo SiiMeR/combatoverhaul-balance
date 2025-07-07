@@ -1,0 +1,118 @@
+[
+  {
+    "file": "game:itemtypes/wearable/seraph/armor.json",
+    "path": "/behaviors/0/propertiesByType/armor-head-sewn-leather",
+    "op": "replace",
+    "value": {
+      "Layers": [
+        "Outer"
+      ],
+      "Zones": [
+        "Head",
+        "Neck",
+        "Face"
+      ],
+      "Resists": {
+        "PiercingAttack": 2,
+        "SlashingAttack": 2,
+        "BluntAttack": 3
+      },
+      "FlatReduction": {},
+      "PlayerStats": {
+        "walkspeed": 0,
+        "manipulationSpeed": 0,
+        "steadyAim": -0.05,
+        "healingeffectivness": -0.09,
+        "hungerrate": 0.09
+      }
+    },
+    "dependsOn": [
+      {
+        "modid": "armory"
+      },
+      {
+        "modid": "anmitechco"
+      },
+      {
+        "modid": "combatoverhaul"
+      }
+    ]
+  },
+  {
+    "file": "game:itemtypes/wearable/seraph/armor.json",
+    "path": "/behaviors/0/propertiesByType/armor-body-sewn-leather",
+    "op": "replace",
+    "value": {
+      "Layers": [
+        "Outer"
+      ],
+      "Zones": [
+        "Torso",
+        "Arms",
+        "Hands"
+      ],
+      "Resists": {
+        "PiercingAttack": 2,
+        "SlashingAttack": 2,
+        "BluntAttack": 3
+      },
+      "FlatReduction": {},
+      "PlayerStats": {
+        "walkspeed": -0.02,
+        "manipulationSpeed": -0.09,
+        "steadyAim": -0.1,
+        "healingeffectivness": -0.09,
+        "hungerrate": 0.09
+      }
+    },
+    "dependsOn": [
+      {
+        "modid": "armory"
+      },
+      {
+        "modid": "anmitechco"
+      },
+      {
+        "modid": "combatoverhaul"
+      }
+    ]
+  },
+  {
+    "file": "game:itemtypes/wearable/seraph/armor.json",
+    "path": "/behaviors/0/propertiesByType/armor-legs-sewn-leather",
+    "op": "replace",
+    "value": {
+      "Layers": [
+        "Outer"
+      ],
+      "Zones": [
+        "Legs",
+        "Feet"
+      ],
+      "Resists": {
+        "PiercingAttack": 2,
+        "SlashingAttack": 2,
+        "BluntAttack": 3
+      },
+      "FlatReduction": {},
+      "PlayerStats": {
+        "walkspeed": -0.06,
+        "manipulationSpeed": 0,
+        "steadyAim": 0,
+        "healingeffectivness": -0.06,
+        "hungerrate": 0.06
+      }
+    },
+    "dependsOn": [
+      {
+        "modid": "armory"
+      },
+      {
+        "modid": "anmitechco"
+      },
+      {
+        "modid": "combatoverhaul"
+      }
+    ]
+  }
+]
