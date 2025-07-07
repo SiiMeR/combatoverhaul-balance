@@ -13,9 +13,9 @@
         "Face"
       ],
       "Resists": {
-        "PiercingAttack": 3,
-        "SlashingAttack": 3,
-        "BluntAttack": 3
+        "PiercingAttack": 2,
+        "SlashingAttack": 2,
+        "BluntAttack": 2
       },
       "FlatReduction": {},
       "PlayerStats": {
@@ -52,9 +52,9 @@
         "Hands"
       ],
       "Resists": {
-        "PiercingAttack": 3,
-        "SlashingAttack": 3,
-        "BluntAttack": 3
+        "PiercingAttack": 2,
+        "SlashingAttack": 2,
+        "BluntAttack": 2
       },
       "FlatReduction": {},
       "PlayerStats": {
@@ -90,9 +90,9 @@
         "Feet"
       ],
       "Resists": {
-        "PiercingAttack": 3,
-        "SlashingAttack": 3,
-        "BluntAttack": 3
+        "PiercingAttack": 2,
+        "SlashingAttack": 2,
+        "BluntAttack": 2
       },
       "FlatReduction": {},
       "PlayerStats": {

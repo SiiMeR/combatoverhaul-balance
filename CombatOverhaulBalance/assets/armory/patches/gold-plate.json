@@ -4,9 +4,9 @@
     "path": "/behaviors/0/properties/ResistsByType/*-gold-*",
     "op": "replace",
     "value": {
-      "PiercingAttack": 5,
-      "SlashingAttack": 5,
-      "BluntAttack": 4
+      "PiercingAttack": 4,
+      "SlashingAttack": 4,
+      "BluntAttack": 1
     },
     "dependsOn": [
       {
