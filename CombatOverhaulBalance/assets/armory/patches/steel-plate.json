@@ -20,7 +20,7 @@
     "op": "replace",
     "value": {
       "*-torso-*": {
-        "walkspeed": -0.20,
+        "walkspeed": -0.06,
         "manipulationSpeed": -0.20,
         "steadyAim": 0,
         "healingeffectivness": -0.03,
@@ -41,14 +41,14 @@
         "hungerrate": 0.05
       },
       "*-legs-*": {
-        "walkspeed": -0.1,
+        "walkspeed": -0.05,
         "manipulationSpeed": 0,
         "steadyAim": 0,
         "healingeffectivness": -0.03,
         "hungerrate": 0.05
       },
       "*-feet-*": {
-        "walkspeed": -0.1,
+        "walkspeed": -0.04,
         "manipulationSpeed": 0,
         "steadyAim": 0,
         "healingeffectivness": -0.03,

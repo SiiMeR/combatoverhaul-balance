@@ -34,7 +34,7 @@
     "op": "replace",
     "path": "/behaviors/0/propertiesByType/armor-body-antique-blackguard-pristine/PlayerStats",
     "value": {
-      "walkspeed": -0.10,
+      "walkspeed": -0.12,
       "manipulationSpeed": -0.10,
       "steadyAim": -0.1,
       "healingeffectivness": -0.09,
@@ -66,7 +66,7 @@
     "op": "replace",
     "path": "/behaviors/0/propertiesByType/armor-legs-antique-blackguard-pristine/PlayerStats",
     "value": {
-      "walkspeed": -0.02,
+      "walkspeed": -0.04,
       "manipulationSpeed": 0,
       "steadyAim": 0,
       "healingeffectivness": -0.06,

@@ -65,21 +65,21 @@
     "op": "replace",
     "value": {
       "*-torso-*": {
-        "walkspeed": -0.06,
+        "walkspeed": -0.03,
         "manipulationSpeed": -0.1,
         "steadyAim": 0,
         "healingeffectivness": -0.03,
         "hungerrate": 0.05
       },
       "*-arms-*": {
-        "walkspeed": 0,
+        "walkspeed": -0.02,
         "manipulationSpeed": 0,
         "steadyAim": -0.1,
         "healingeffectivness": -0.03,
         "hungerrate": 0.05
       },
       "*-hands-*": {
-        "walkspeed": 0,
+        "walkspeed": -0.02,
         "manipulationSpeed": 0,
         "steadyAim": -0.1,
         "healingeffectivness": -0.03,
@@ -93,7 +93,7 @@
         "hungerrate": 0.05
       },
       "*-feet-*": {
-        "walkspeed": 0,
+        "walkspeed": -0.01,
         "manipulationSpeed": 0,
         "steadyAim": 0,
         "healingeffectivness": -0.03,
