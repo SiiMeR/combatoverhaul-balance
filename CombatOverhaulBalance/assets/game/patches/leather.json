@@ -21,9 +21,9 @@
       "PlayerStats": {
         "walkspeed": 0,
         "manipulationSpeed": 0,
-        "steadyAim": -0.05,
+        "steadyAim": 0,
         "healingeffectivness": -0.09,
-        "hungerrate": 0.09
+        "hungerrate": 0.08
       }
     },
     "dependsOn": [
@@ -59,10 +59,10 @@
       "FlatReduction": {},
       "PlayerStats": {
         "walkspeed": -0.03,
-        "manipulationSpeed": -0.09,
-        "steadyAim": -0.1,
+        "manipulationSpeed": -0.1,
+        "steadyAim": 0,
         "healingeffectivness": -0.09,
-        "hungerrate": 0.09
+        "hungerrate": 0.08
       }
     },
     "dependsOn": [
@@ -100,7 +100,7 @@
         "manipulationSpeed": 0,
         "steadyAim": 0,
         "healingeffectivness": -0.06,
-        "hungerrate": 0.06
+        "hungerrate": 0.04
       }
     },
     "dependsOn": [

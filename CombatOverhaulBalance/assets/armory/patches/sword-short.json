@@ -8,7 +8,7 @@
         "Damage": {
           "DamageType": "SlashingAttack",
           "Strength": 9,
-          "Damage": 3
+          "Damage": 4
         },
         "Knockback": 1,
         "DurabilityDamage": 1,

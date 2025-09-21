@@ -1,11 +1,12 @@
-[
+﻿[
   {
     "file": "game:itemtypes/wearable/seraph/armor.json",
-    "path": "/behaviors/0/propertiesByType/armor-head-brigandine-steel",
+    "path": "/behaviors/0/propertiesByType/armor-head-scale-steel",
     "op": "replace",
     "value": {
       "Layers": [
-        "Outer"
+        "Outer",
+        "Middle"
       ],
       "Zones": [
         "Head",
@@ -14,16 +15,20 @@
       ],
       "Resists": {
         "PiercingAttack": 4,
-        "SlashingAttack": 4,
-        "BluntAttack": 4
+        "SlashingAttack": 6,
+        "BluntAttack": 3
       },
-      "FlatReduction": {},
+      "FlatReduction": {
+        "PiercingAttack": 1,
+        "SlashingAttack": 1,
+        "BluntAttack": 1
+      },
       "PlayerStats": {
         "walkspeed": 0,
         "manipulationSpeed": 0,
-        "steadyAim": -0.10,
-        "healingeffectivness": -0.09,
-        "hungerrate": 0.06
+        "steadyAim": -0.05,
+        "healingeffectivness": -0.06,
+        "hungerrate": 0.09
       }
     },
     "dependsOn": [
@@ -40,11 +45,12 @@
   },
   {
     "file": "game:itemtypes/wearable/seraph/armor.json",
-    "path": "/behaviors/0/propertiesByType/armor-body-brigandine-steel",
+    "path": "/behaviors/0/propertiesByType/armor-body-scale-steel",
     "op": "replace",
     "value": {
       "Layers": [
-        "Outer"
+        "Outer",
+        "Middle"
       ],
       "Zones": [
         "Torso",
@@ -53,15 +59,19 @@
       ],
       "Resists": {
         "PiercingAttack": 4,
-        "SlashingAttack": 4,
-        "BluntAttack": 4
+        "SlashingAttack": 6,
+        "BluntAttack": 3
       },
-      "FlatReduction": {},
+      "FlatReduction": {
+        "PiercingAttack": 1,
+        "SlashingAttack": 1,
+        "BluntAttack": 1
+      },
       "PlayerStats": {
-        "walkspeed": -0.07,
-        "manipulationSpeed": -0.10,
-        "steadyAim": -0.15,
-        "healingeffectivness": -0.09,
+        "walkspeed": -0.05,
+        "manipulationSpeed": -0.09,
+        "steadyAim": -0.1,
+        "healingeffectivness": -0.06,
         "hungerrate": 0.09
       }
     },
@@ -79,11 +89,12 @@
   },
   {
     "file": "game:itemtypes/wearable/seraph/armor.json",
-    "path": "/behaviors/0/propertiesByType/armor-legs-brigandine-steel",
+    "path": "/behaviors/0/propertiesByType/armor-legs-scale-steel",
     "op": "replace",
     "value": {
       "Layers": [
-        "Outer"
+        "Outer",
+        "Middle"
       ],
       "Zones": [
         "Legs",
@@ -91,16 +102,20 @@
       ],
       "Resists": {
         "PiercingAttack": 4,
-        "SlashingAttack": 4,
-        "BluntAttack": 4
+        "SlashingAttack": 6,
+        "BluntAttack": 3
       },
-      "FlatReduction": {},
+      "FlatReduction": {
+        "PiercingAttack": 1,
+        "SlashingAttack": 1,
+        "BluntAttack": 1
+      },
       "PlayerStats": {
         "walkspeed": -0.03,
         "manipulationSpeed": 0,
         "steadyAim": 0,
-        "healingeffectivness": -0.06,
-        "hungerrate": 0.09
+        "healingeffectivness": -0.04,
+        "hungerrate": 0.06
       }
     },
     "dependsOn": [
