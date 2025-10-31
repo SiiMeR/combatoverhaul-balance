@@ -1,0 +1,133 @@
+﻿[
+  {
+    "file": "game:itemtypes/wearable/seraph/armor.json",
+    "path": "/behaviors/0/propertiesByType/armor-head-scale-copper",
+    "op": "replace",
+    "value": {
+      "Layers": [
+        "Outer",
+        "Middle"
+      ],
+      "Zones": [
+        "Head",
+        "Neck",
+        "Face"
+      ],
+      "Resists": {
+        "PiercingAttack": 3,
+        "SlashingAttack": 3,
+        "BluntAttack": 0
+      },
+      "FlatReduction": {
+        "PiercingAttack": 0,
+        "SlashingAttack": 1,
+        "BluntAttack": 0
+      },
+      "PlayerStats": {
+        "walkspeed": 0,
+        "manipulationSpeed": -0.05,
+        "steadyAim": -0.06,
+        "healingeffectivness": -0.06,
+        "hungerrate": 0.09
+      }
+    },
+    "dependsOn": [
+      {
+        "modid": "armory"
+      },
+      {
+        "modid": "anmitechco"
+      },
+      {
+        "modid": "combatoverhaul"
+      }
+    ]
+  },
+  {
+    "file": "game:itemtypes/wearable/seraph/armor.json",
+    "path": "/behaviors/0/propertiesByType/armor-body-scale-copper",
+    "op": "replace",
+    "value": {
+      "Layers": [
+        "Outer",
+        "Middle"
+      ],
+      "Zones": [
+        "Torso",
+        "Arms",
+        "Hands"
+      ],
+      "Resists": {
+        "PiercingAttack": 3,
+        "SlashingAttack": 3,
+        "BluntAttack": 0
+      },
+      "FlatReduction": {
+        "PiercingAttack": 0,
+        "SlashingAttack": 1,
+        "BluntAttack": 0
+      },
+      "PlayerStats": {
+        "walkspeed": -0.06,
+        "manipulationSpeed": -0.1,
+        "steadyAim": -0.17,
+        "healingeffectivness": -0.06,
+        "hungerrate": 0.09
+      }
+    },
+    "dependsOn": [
+      {
+        "modid": "armory"
+      },
+      {
+        "modid": "anmitechco"
+      },
+      {
+        "modid": "combatoverhaul"
+      }
+    ]
+  },
+  {
+    "file": "game:itemtypes/wearable/seraph/armor.json",
+    "path": "/behaviors/0/propertiesByType/armor-legs-scale-copper",
+    "op": "replace",
+    "value": {
+      "Layers": [
+        "Outer",
+        "Middle"
+      ],
+      "Zones": [
+        "Legs",
+        "Feet"
+      ],
+      "Resists": {
+        "PiercingAttack": 3,
+        "SlashingAttack": 3,
+        "BluntAttack": 0
+      },
+      "FlatReduction": {
+        "PiercingAttack": 0,
+        "SlashingAttack": 1,
+        "BluntAttack": 0
+      },
+      "PlayerStats": {
+        "walkspeed": -0.03,
+        "manipulationSpeed": 0,
+        "steadyAim": 0,
+        "healingeffectivness": -0.06,
+        "hungerrate": 0.06
+      }
+    },
+    "dependsOn": [
+      {
+        "modid": "armory"
+      },
+      {
+        "modid": "anmitechco"
+      },
+      {
+        "modid": "combatoverhaul"
+      }
+    ]
+  }
+]

@@ -1,0 +1,79 @@
+[
+  {
+    "file": "game:itemtypes/wearable/seraph/armor.json",
+    "path": "/behaviors/0/propertiesByType/armor-body-jerkin-leather",
+    "op": "replace",
+    "value": {
+      "Layers": [
+        "Skin"
+      ],
+      "Zones": [
+        "Torso",
+        "Arms",
+        "Hands"
+      ],
+      "Resists": {
+        "PiercingAttack": 1,
+        "SlashingAttack": 2,
+        "BluntAttack": 4
+      },
+      "FlatReduction": {},
+      "PlayerStats": {
+        "walkspeed": 0,
+        "manipulationSpeed": -0.01,
+        "steadyAim": -0.02,
+        "healingeffectivness": -0.09,
+        "hungerrate": 0.03
+      }
+    },
+    "dependsOn": [
+      {
+        "modid": "armory"
+      },
+      {
+        "modid": "anmitechco"
+      },
+      {
+        "modid": "combatoverhaul"
+      }
+    ]
+  },
+  {
+    "file": "game:itemtypes/wearable/seraph/armor.json",
+    "path": "/behaviors/0/propertiesByType/armor-legs-jerkin-leather",
+    "op": "replace",
+    "value": {
+      "Layers": [
+        "Skin"
+      ],
+      "Zones": [
+        "Legs",
+        "Feet"
+      ],
+      "Resists": {
+        "PiercingAttack": 1,
+        "SlashingAttack": 2,
+        "BluntAttack": 4
+      },
+      "FlatReduction": {},
+      "PlayerStats": {
+        "walkspeed": -0.01,
+        "manipulationSpeed": 0,
+        "steadyAim": 0,
+        "healingeffectivness": -0.06,
+        "hungerrate": 0.02
+      }
+    },
+    "dependsOn": [
+      {
+        "modid": "armory"
+      },
+      {
+        "modid": "anmitechco"
+      },
+      {
+        "modid": "combatoverhaul"
+      }
+    ]
+  }
+]
