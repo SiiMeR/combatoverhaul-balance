@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFramework>net7.0</TargetFramework>
+        <TargetFramework>net8.0</TargetFramework>
         <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
         <OutputPath>bin\$(Configuration)\Mods\mod</OutputPath>
     </PropertyGroup>
@@ -43,7 +43,8 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="assets\armory\" />
+        <Folder Include="assets\armory\"/>
+        <Folder Include="assets\tonwexp\patches\"/>
     </ItemGroup>
 
 </Project>

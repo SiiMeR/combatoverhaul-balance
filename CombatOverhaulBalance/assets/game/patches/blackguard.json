@@ -17,12 +17,38 @@
   {
     "file": "game:itemtypes/wearable/seraph/armor",
     "op": "replace",
+    "path": "/behaviors/0/propertiesByType/armor-head-antique-blackguard-pristine/Layers",
+    "value": [
+      "Outer"
+    ],
+    "dependsOn": [
+      {
+        "modid": "combatoverhaul"
+      }
+    ]
+  },
+  {
+    "file": "game:itemtypes/wearable/seraph/armor",
+    "op": "replace",
     "path": "/behaviors/0/propertiesByType/armor-body-antique-blackguard-pristine/Resists",
     "value": {
       "PiercingAttack": 5,
       "SlashingAttack": 5,
       "BluntAttack": 4
     },
+    "dependsOn": [
+      {
+        "modid": "combatoverhaul"
+      }
+    ]
+  },
+  {
+    "file": "game:itemtypes/wearable/seraph/armor",
+    "op": "replace",
+    "path": "/behaviors/0/propertiesByType/armor-body-antique-blackguard-pristine/Layers",
+    "value": [
+      "Outer"
+    ],
     "dependsOn": [
       {
         "modid": "combatoverhaul"
@@ -55,6 +81,19 @@
       "SlashingAttack": 5,
       "BluntAttack": 4
     },
+    "dependsOn": [
+      {
+        "modid": "combatoverhaul"
+      }
+    ]
+  },
+  {
+    "file": "game:itemtypes/wearable/seraph/armor",
+    "op": "replace",
+    "path": "/behaviors/0/propertiesByType/armor-legs-antique-blackguard-pristine/Layers",
+    "value": [
+      "Outer"
+    ],
     "dependsOn": [
       {
         "modid": "combatoverhaul"
