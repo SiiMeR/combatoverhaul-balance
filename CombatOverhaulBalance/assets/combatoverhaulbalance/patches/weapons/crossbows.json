@@ -1,0 +1,63 @@
+﻿[
+  {
+    "file": "maltiezcrossbows:itemtypes/crossbow.json",
+    "path": "/attributes/BoltDamageMultiplierByType",
+    "op": "replace",
+    "value": {
+      "*-simple-*": 1.5,
+      "*-stirrup-*": 2.5,
+      "*-latch-*": 2,
+      "*-goatsfoot-*": 3,
+      "*-windlass-*": 4
+    },
+    "dependsOn": [
+      {
+        "modid": "maltiezcrossbows"
+      }
+    ]
+  },
+  {
+    "file": "maltiezcrossbows:itemtypes/bolt.json",
+    "path": "/behaviors/1/properties/stats/DamageStatsByType",
+    "op": "replace",
+    "value": {
+      "*-crude": {
+        "DamageType": "PiercingAttack",
+        "Damage": 5
+      },
+      "*-copper": {
+        "DamageType": "PiercingAttack",
+        "Damage": 6
+      },
+      "*-tinbronze": {
+        "DamageType": "PiercingAttack",
+        "Damage": 7
+      },
+      "*-bismuthbronze": {
+        "DamageType": "PiercingAttack",
+        "Damage": 7
+      },
+      "*-blackbronze": {
+        "DamageType": "PiercingAttack",
+        "Damage": 7
+      },
+      "*-iron": {
+        "DamageType": "PiercingAttack",
+        "Damage": 7
+      },
+      "*-meteoriciron": {
+        "DamageType": "PiercingAttack",
+        "Damage": 7
+      },
+      "*-steel": {
+        "DamageType": "PiercingAttack",
+        "Damage": 8
+      }
+    },
+    "dependsOn": [
+      {
+        "modid": "maltiezcrossbows"
+      }
+    ]
+  }
+]

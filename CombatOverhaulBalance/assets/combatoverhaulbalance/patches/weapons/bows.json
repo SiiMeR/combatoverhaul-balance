@@ -1,0 +1,34 @@
+﻿[
+  {
+    "file": "game:itemtypes/combatoverhaul/bow.json",
+    "path": "/attributes/ArrowDamageMultiplierByType",
+    "op": "replace",
+    "value": {
+      "*-crude": 1.3,
+      "*-simple": 1.3,
+      "*-long": 2.4,
+      "*-recurve": 1.8
+    },
+    "dependsOn": [
+      {
+        "modid": "combatoverhaul"
+      }
+    ]
+  },
+  {
+    "file": "game:itemtypes/combatoverhaul/bow.json",
+    "path": "/attributes/ArrowDamageTierByType",
+    "op": "replace",
+    "value": {
+      "*-crude": 2,
+      "*-simple": 2,
+      "*-long": 4,
+      "*-recurve": 4
+    },
+    "dependsOn": [
+      {
+        "modid": "combatoverhaul"
+      }
+    ]
+  }
+]

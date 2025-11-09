@@ -1,0 +1,182 @@
+﻿[
+  {
+    "file": "armory:itemtypes/weapons/sword-long.json",
+    "path": "/attributes/OneHandedStance/Attack/DamageTypesByType",
+    "op": "replace",
+    "value": {
+      "*-*bronze": [
+        {
+          "Damage": {
+            "DamageType": "SlashingAttack",
+            "Tier": 3,
+            "Damage": 6
+          },
+          "Knockback": 0,
+          "DurabilityDamage": 1,
+          "Collider": [
+            0.5,
+            0,
+            0.5,
+            2.8,
+            0,
+            0.5
+          ]
+        }
+      ],
+      "*-iron": [
+        {
+          "Damage": {
+            "DamageType": "SlashingAttack",
+            "Tier": 4,
+            "Damage": 6.5
+          },
+          "Knockback": 0,
+          "DurabilityDamage": 1,
+          "Collider": [
+            0.5,
+            -0.05,
+            0.5,
+            3,
+            -0.05,
+            0.5
+          ]
+        }
+      ],
+      "*-meteoriciron": [
+        {
+          "Damage": {
+            "DamageType": "SlashingAttack",
+            "Tier": 5,
+            "Damage": 6.5,
+            "ArmorPiercingTier": 1
+          },
+          "Knockback": 0,
+          "DurabilityDamage": 1,
+          "Collider": [
+            0.5,
+            -0.05,
+            0.5,
+            3,
+            -0.05,
+            0.5
+          ]
+        }
+      ],
+      "*-steel": [
+        {
+          "Damage": {
+            "DamageType": "SlashingAttack",
+            "Tier": 6,
+            "Damage": 7,
+            "ArmorPiercingTier": 1
+          },
+          "Knockback": 0,
+          "DurabilityDamage": 1,
+          "Collider": [
+            0.5,
+            0,
+            0.5,
+            3.1,
+            0,
+            0.5
+          ]
+        }
+      ]
+    },
+    "dependsOn": [
+      {
+        "modid": "armory"
+      }
+    ]
+  },
+  {
+    "file": "armory:itemtypes/weapons/sword-long.json",
+    "path": "/attributes/TwoHandedStance/Attack/DamageTypesByType",
+    "op": "replace",
+    "value": {
+      "*-*bronze": [
+        {
+          "Damage": {
+            "DamageType": "SlashingAttack",
+            "Tier": 3,
+            "Damage": 6
+          },
+          "Knockback": 1,
+          "DurabilityDamage": 1,
+          "Collider": [
+            0.5,
+            0,
+            0.5,
+            2.8,
+            0,
+            0.5
+          ]
+        }
+      ],
+      "*-iron": [
+        {
+          "Damage": {
+            "DamageType": "SlashingAttack",
+            "Tier": 4,
+            "Damage": 6.5
+          },
+          "Knockback": 1,
+          "DurabilityDamage": 1,
+          "Collider": [
+            0.5,
+            -0.05,
+            0.5,
+            3,
+            -0.05,
+            0.5
+          ]
+        }
+      ],
+      "*-meteoriciron": [
+        {
+          "Damage": {
+            "DamageType": "SlashingAttack",
+            "Tier": 5,
+            "Damage": 6.5,
+            "ArmorPiercingTier": 1
+          },
+          "Knockback": 1,
+          "DurabilityDamage": 1,
+          "Collider": [
+            0.5,
+            -0.05,
+            0.5,
+            3,
+            -0.05,
+            0.5
+          ]
+        }
+      ],
+      "*-steel": [
+        {
+          "Damage": {
+            "DamageType": "SlashingAttack",
+            "Tier": 6,
+            "Damage": 7,
+            "ArmorPiercingTier": 1
+          },
+          "Knockback": 1,
+          "DurabilityDamage": 1,
+          "Collider": [
+            0.5,
+            0,
+            0.5,
+            3.1,
+            0,
+            0.5
+          ]
+        }
+      ]
+    },
+    "dependsOn": [
+      {
+        "modid": "armory"
+      }
+    ]
+  }
+]

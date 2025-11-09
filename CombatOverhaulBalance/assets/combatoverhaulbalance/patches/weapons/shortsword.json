@@ -1,0 +1,197 @@
+﻿[
+  {
+    "file": "armory:itemtypes/weapons/sword-short.json",
+    "path": "/attributes/OneHandedStance/Attack/DamageTypesByType",
+    "op": "replace",
+    "value": {
+      "*-copper": [
+        {
+          "Damage": {
+            "DamageType": "SlashingAttack",
+            "Tier": 2,
+            "Damage": 2.5,
+            "ArmorPiercingTier": 1
+          },
+          "Knockback": 1,
+          "DurabilityDamage": 1,
+          "Collider": [
+            0.6,
+            0,
+            0.5,
+            2.1,
+            0,
+            0.5
+          ]
+        }
+      ],
+      "*-*bronze": [
+        {
+          "Damage": {
+            "DamageType": "SlashingAttack",
+            "Tier": 3,
+            "Damage": 3,
+            "ArmorPiercingTier": 1
+          },
+          "Knockback": 1,
+          "DurabilityDamage": 1,
+          "Collider": [
+            0.6,
+            0,
+            0.5,
+            2.1,
+            0,
+            0.5
+          ]
+        }
+      ],
+      "*-iron": [
+        {
+          "Damage": {
+            "DamageType": "SlashingAttack",
+            "Tier": 4,
+            "Damage": 3.5,
+            "ArmorPiercingTier": 1
+          },
+          "Knockback": 1,
+          "DurabilityDamage": 1,
+          "Collider": [
+            0.6,
+            -0.1,
+            0.5,
+            2.4,
+            -0.1,
+            0.5
+          ]
+        }
+      ],
+      "*-meteoriciron": [
+        {
+          "Damage": {
+            "DamageType": "SlashingAttack",
+            "Tier": 5,
+            "Damage": 3.5,
+            "ArmorPiercingTier": 1
+          },
+          "Knockback": 1,
+          "DurabilityDamage": 1,
+          "Collider": [
+            0.6,
+            -0.1,
+            0.5,
+            2.4,
+            -0.1,
+            0.5
+          ]
+        }
+      ],
+      "*-steel": [
+        {
+          "Damage": {
+            "DamageType": "SlashingAttack",
+            "Tier": 6,
+            "Damage": 4,
+            "ArmorPiercingTier": 2
+          },
+          "Knockback": 1,
+          "DurabilityDamage": 1,
+          "Collider": [
+            0.6,
+            0,
+            0.5,
+            2.6,
+            0,
+            0.5
+          ]
+        }
+      ]
+    },
+    "dependsOn": [
+      {
+        "modid": "armory"
+      },
+      {
+        "modid": "anmitechco"
+      }
+    ]
+  },
+  {
+    "file": "game:itemtypes/combatoverhaul/sword.json",
+    "path": "/attributes/OneHandedStanceByType/*-forlorn-*/Attack",
+    "op": "replace",
+    "value": {
+      "StopOnTerrainHit": false,
+      "StopOnEntityHit": true,
+      "CollideWithTerrain": true,
+      "MaxReach": 9,
+      "DamageTypes": [
+        {
+          "DamageByType": {
+            "*": {
+              "DamageType": "SlashingAttack",
+              "Tier": 7,
+              "Damage": 4.0
+            }
+          },
+          "Knockback": 1,
+          "DurabilityDamage": 1,
+          "Collider": [
+            0,
+            0,
+            0.5,
+            2.3,
+            0,
+            0.5
+          ]
+        }
+      ]
+    },
+    "dependsOn": [
+      {
+        "modid": "combatoverhaul"
+      },
+      {
+        "modid": "anmitechco"
+      }
+    ]
+  },
+  {
+    "file": "game:itemtypes/combatoverhaul/sword.json",
+    "path": "/attributes/OneHandedStanceByType/*-blackguard-*/Attack",
+    "op": "replace",
+    "value": {
+      "StopOnTerrainHit": false,
+      "StopOnEntityHit": true,
+      "CollideWithTerrain": true,
+      "MaxReach": 9,
+      "DamageTypes": [
+        {
+          "DamageByType": {
+            "*": {
+              "DamageType": "SlashingAttack",
+              "Tier": 5,
+              "Damage": 4.5
+            }
+          },
+          "Knockback": 1,
+          "DurabilityDamage": 1,
+          "Collider": [
+            0,
+            0,
+            0.5,
+            1.8,
+            0,
+            0.5
+          ]
+        }
+      ]
+    },
+    "dependsOn": [
+      {
+        "modid": "combatoverhaul"
+      },
+      {
+        "modid": "anmitechco"
+      }
+    ]
+  }
+]

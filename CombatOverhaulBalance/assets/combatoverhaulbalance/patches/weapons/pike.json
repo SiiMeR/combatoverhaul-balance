@@ -1,0 +1,128 @@
+﻿[
+  {
+    "file": "armory:itemtypes/weapons/pike.json",
+    "path": "/attributes/TwoHandedStance/Attack/DamageTypesByType",
+    "op": "replace",
+    "value": {
+      "*-*bronze": [
+        {
+          "Damage": {
+            "DamageType": "PiercingAttack",
+            "Tier": 3,
+            "Damage": 6
+          },
+          "Knockback": 2,
+          "DurabilityDamage": 1,
+          "Collider": [
+            0,
+            0,
+            0.5,
+            1.2,
+            0,
+            0.5
+          ]
+        }
+      ],
+      "*-iron": [
+        {
+          "Damage": {
+            "DamageType": "PiercingAttack",
+            "Tier": 4,
+            "Damage": 6.5
+          },
+          "Knockback": 2,
+          "DurabilityDamage": 1,
+          "Collider": [
+            0,
+            0,
+            0.5,
+            1.2,
+            0,
+            0.5
+          ]
+        }
+      ],
+      "*-ornategold": [
+        {
+          "Damage": {
+            "DamageType": "PiercingAttack",
+            "Tier": 5,
+            "Damage": 6.5
+          },
+          "Knockback": 2,
+          "DurabilityDamage": 1,
+          "Collider": [
+            0,
+            0,
+            0.5,
+            1.2,
+            0,
+            0.5
+          ]
+        }
+      ],
+      "*-ornatesilver": [
+        {
+          "Damage": {
+            "DamageType": "PiercingAttack",
+            "Tier": 5,
+            "Damage": 6.5
+          },
+          "Knockback": 2,
+          "DurabilityDamage": 1,
+          "Collider": [
+            0,
+            0,
+            0.5,
+            1.2,
+            0,
+            0.5
+          ]
+        }
+      ],
+      "*-meteoriciron": [
+        {
+          "Damage": {
+            "DamageType": "PiercingAttack",
+            "Tier": 5,
+            "Damage": 6.5
+          },
+          "Knockback": 2,
+          "DurabilityDamage": 1,
+          "Collider": [
+            0,
+            0,
+            0.5,
+            1.2,
+            0,
+            0.5
+          ]
+        }
+      ],
+      "*-steel": [
+        {
+          "Damage": {
+            "DamageType": "PiercingAttack",
+            "Tier": 6,
+            "Damage": 7
+          },
+          "Knockback": 2,
+          "DurabilityDamage": 1,
+          "Collider": [
+            0,
+            0,
+            0.5,
+            1.2,
+            0,
+            0.5
+          ]
+        }
+      ]
+    },
+    "dependsOn": [
+      {
+        "modid": "armory"
+      }
+    ]
+  }
+]

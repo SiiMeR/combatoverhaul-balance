@@ -1,0 +1,94 @@
+﻿[
+  {
+    "file": "armory:itemtypes/weapons/javelin.json",
+    "path": "/attributes/OneHandedStance/Attack/DamageTypes/0/DamageByType",
+    "op": "replace",
+    "value": {
+      "*-flint": {
+        "DamageType": "PiercingAttack",
+        "Tier": 1,
+        "Damage": 2.5
+      },
+      "*-obsidian": {
+        "DamageType": "PiercingAttack",
+        "Tier": 1,
+        "Damage": 2.5
+      },
+      "*-copper": {
+        "DamageType": "PiercingAttack",
+        "Tier": 2,
+        "Damage": 4
+      },
+      "*-*bronze": {
+        "DamageType": "PiercingAttack",
+        "Tier": 3,
+        "Damage": 5
+      },
+      "*-iron": {
+        "DamageType": "PiercingAttack",
+        "Tier": 4,
+        "Damage": 5.5
+      },
+      "*-meteoriciron": {
+        "DamageType": "PiercingAttack",
+        "Tier": 5,
+        "Damage": 5.5
+      },
+      "*-steel": {
+        "DamageType": "PiercingAttack",
+        "Tier": 6,
+        "Damage": 6
+      },
+      "*": {
+        "DamageType": "PiercingAttack",
+        "Tier": 1,
+        "Damage": 2.5
+      }
+    },
+    "dependsOn": [
+      {
+        "modid": "armory"
+      }
+    ]
+  },
+  {
+    "file": "armory:itemtypes/weapons/javelin.json",
+    "path": "/attributes/ThrowAttack/DamageTierByType",
+    "op": "replace",
+    "value": {
+      "*-flint": 2,
+      "*-obsidian": 2,
+      "*-copper": 3,
+      "*-*bronze": 4,
+      "*-iron": 5,
+      "*-meteoriciron": 6,
+      "*-steel": 7,
+      "*": 2
+    },
+    "dependsOn": [
+      {
+        "modid": "armory"
+      }
+    ]
+  },
+  {
+    "file": "armory:itemtypes/weapons/javelin.json",
+    "path": "/attributes/ThrowAttack/DamageStrengthByType",
+    "op": "add",
+    "value": {
+      "*-flint": 7,
+      "*-obsidian": 7,
+      "*-copper": 9,
+      "*-*bronze": 10,
+      "*-iron": 11,
+      "*-meteoriciron": 11,
+      "*-steel": 12,
+      "*": 7
+    },
+    "dependsOn": [
+      {
+        "modid": "armory"
+      }
+    ]
+  }
+]

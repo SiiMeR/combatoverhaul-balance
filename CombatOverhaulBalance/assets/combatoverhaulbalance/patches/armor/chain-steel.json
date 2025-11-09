@@ -1,0 +1,65 @@
+﻿[
+  {
+    "file": "game:itemtypes/wearable/seraph/armor.json",
+    "path": "/behaviors/0/propertiesByType/armor-head-chain-steel/Resists",
+    "op": "replace",
+    "value": {
+      "PiercingAttack": 3,
+      "SlashingAttack": 5,
+      "BluntAttack": 2
+    },
+    "dependsOn": [
+      {
+        "modid": "armory"
+      },
+      {
+        "modid": "anmitechco"
+      },
+      {
+        "modid": "combatoverhaul"
+      }
+    ]
+  },
+  {
+    "file": "game:itemtypes/wearable/seraph/armor.json",
+    "path": "/behaviors/0/propertiesByType/armor-body-chain-steel/Resists",
+    "op": "replace",
+    "value": {
+      "PiercingAttack": 3,
+      "SlashingAttack": 5,
+      "BluntAttack": 2
+    },
+    "dependsOn": [
+      {
+        "modid": "armory"
+      },
+      {
+        "modid": "anmitechco"
+      },
+      {
+        "modid": "combatoverhaul"
+      }
+    ]
+  },
+  {
+    "file": "game:itemtypes/wearable/seraph/armor.json",
+    "path": "/behaviors/0/propertiesByType/armor-legs-chain-steel/Resists",
+    "op": "replace",
+    "value": {
+      "PiercingAttack": 3,
+      "SlashingAttack": 5,
+      "BluntAttack": 2
+    },
+    "dependsOn": [
+      {
+        "modid": "armory"
+      },
+      {
+        "modid": "anmitechco"
+      },
+      {
+        "modid": "combatoverhaul"
+      }
+    ]
+  }
+]

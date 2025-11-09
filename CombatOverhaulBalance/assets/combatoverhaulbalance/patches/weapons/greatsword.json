@@ -1,0 +1,167 @@
+﻿[
+  {
+    "file": "armory:itemtypes/weapons/sword-great.json",
+    "path": "/attributes/TwoHandedStance/Attack/DamageTypesByType",
+    "op": "replace",
+    "value": {
+      "*-iron": [
+        {
+          "Damage": {
+            "DamageType": "SlashingAttack",
+            "Tier": 5,
+            "Damage": 7.5
+          },
+          "Knockback": 1,
+          "DurabilityDamage": 1,
+          "Collider": [
+            0.5,
+            0,
+            0.5,
+            3.8,
+            0,
+            0.5
+          ]
+        }
+      ],
+      "*-meteoriciron": [
+        {
+          "Damage": {
+            "DamageType": "SlashingAttack",
+            "Tier": 5,
+            "Damage": 7.5,
+            "ArmorPiercingTier": 1
+          },
+          "Knockback": 1,
+          "DurabilityDamage": 1,
+          "Collider": [
+            0.5,
+            0,
+            0.5,
+            3.8,
+            0,
+            0.5
+          ]
+        }
+      ],
+      "*-steel": [
+        {
+          "Damage": {
+            "DamageType": "SlashingAttack",
+            "Tier": 6,
+            "Damage": 8,
+            "ArmorPiercingTier": 1
+          },
+          "Knockback": 1,
+          "DurabilityDamage": 1,
+          "Collider": [
+            0.5,
+            0,
+            0.5,
+            3.8,
+            0,
+            0.5
+          ]
+        }
+      ]
+    },
+    "dependsOn": [
+      {
+        "modid": "armory"
+      }
+    ]
+  },
+  {
+    "file": "armory:itemtypes/weapons/sword-great.json",
+    "path": "/attributes/TwoHandedStance/Block",
+    "op": "replace",
+    "value": {
+      "Zones": [
+        "Head",
+        "Face",
+        "Neck",
+        "Torso",
+        "LeftLeg",
+        "RightLeg",
+        "LeftFoot",
+        "RightFoot"
+      ],
+      "Directions": [
+        60,
+        60,
+        60,
+        60
+      ],
+      "Sound": "game:sounds/held/shieldblock-metal-light",
+      "BlockTierByType": {
+        "*-iron": {
+          "BluntAttack": 2,
+          "SlashingAttack": 2,
+          "PiercingAttack": 2
+        },
+        "*-meteoriciron": {
+          "BluntAttack": 2,
+          "SlashingAttack": 2,
+          "PiercingAttack": 2
+        },
+        "*-steel": {
+          "BluntAttack": 3,
+          "SlashingAttack": 3,
+          "PiercingAttack": 3
+        }
+      },
+      "CanBlockProjectiles": false
+    },
+    "dependsOn": [
+      {
+        "modid": "armory"
+      }
+    ]
+  },
+  {
+    "file": "armory:itemtypes/weapons/sword-great.json",
+    "path": "/attributes/TwoHandedStance/BlockBash",
+    "op": "replace",
+    "value": {
+      "StopOnTerrainHit": false,
+      "StopOnEntityHit": true,
+      "CollideWithTerrain": true,
+      "MaxReach": 9,
+      "DamageTypes": [
+        {
+          "DamageByType": {
+            "*-iron": {
+              "DamageType": "SlashingAttack",
+              "Tier": 4,
+              "Damage": 5.5
+            },
+            "*-meteoriciron": {
+              "DamageType": "SlashingAttack",
+              "Tier": 5,
+              "Damage": 5.5
+            },
+            "*-steel": {
+              "DamageType": "SlashingAttack",
+              "Tier": 6,
+              "Damage": 6
+            }
+          },
+          "Knockback": 1,
+          "DurabilityDamage": 1,
+          "Collider": [
+            0.5,
+            0,
+            0.5,
+            3.8,
+            0,
+            0.5
+          ]
+        }
+      ]
+    },
+    "dependsOn": [
+      {
+        "modid": "armory"
+      }
+    ]
+  }
+]

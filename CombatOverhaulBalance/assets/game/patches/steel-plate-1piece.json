@@ -13,9 +13,9 @@
         "Hands"
       ],
       "Resists": {
-        "PiercingAttack": 7,
-        "SlashingAttack": 7,
-        "BluntAttack": 6
+        "PiercingAttack": 6,
+        "SlashingAttack": 6,
+        "BluntAttack": 5
       },
       "FlatReduction": {},
       "PlayerStats": {
@@ -51,9 +51,9 @@
         "Feet"
       ],
       "Resists": {
-        "PiercingAttack": 7,
-        "SlashingAttack": 7,
-        "BluntAttack": 6
+        "PiercingAttack": 6,
+        "SlashingAttack": 6,
+        "BluntAttack": 5
       },
       "FlatReduction": {},
       "PlayerStats": {

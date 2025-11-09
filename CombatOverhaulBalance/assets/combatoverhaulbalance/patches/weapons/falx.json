@@ -1,0 +1,52 @@
+﻿[
+  {
+    "file": "game:itemtypes/combatoverhaul/sword.json",
+    "path": "/attributes/OneHandedStanceByType/*-falx-*/Attack/DamageTypes/0/DamageByType",
+    "op": "replace",
+    "value": {
+      "*-copper": {
+        "DamageType": "SlashingAttack",
+        "Tier": 3,
+        "Damage": 4.5
+      },
+      "*-*bronze": {
+        "DamageType": "SlashingAttack",
+        "Tier": 4,
+        "Damage": 5.0
+      },
+      "*-iron": {
+        "DamageType": "SlashingAttack",
+        "Tier": 5,
+        "Damage": 5.5
+      },
+      "*-meteoriciron": {
+        "DamageType": "SlashingAttack",
+        "Tier": 6,
+        "Damage": 5.5
+      },
+      "*-gold": {
+        "DamageType": "SlashingAttack",
+        "Tier": 7,
+        "Damage": 6
+      },
+      "*-silver": {
+        "DamageType": "SlashingAttack",
+        "Tier": 7,
+        "Damage": 6
+      },
+      "*-steel": {
+        "DamageType": "SlashingAttack",
+        "Tier": 7,
+        "Damage": 6
+      }
+    },
+    "dependsOn": [
+      {
+        "modid": "combatoverhaul"
+      },
+      {
+        "modid": "anmitechco"
+      }
+    ]
+  }
+]

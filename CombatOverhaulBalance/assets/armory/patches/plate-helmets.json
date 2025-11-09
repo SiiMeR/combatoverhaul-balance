@@ -1,11 +1,26 @@
 [
   {
+    "file": "game:itemtypes/wearable/seraph/armor.json",
+    "path": "/behaviors/0/propertiesByType/armor-head-plate-steel/Resists",
+    "op": "replace",
+    "value": {
+      "PiercingAttack": 6,
+      "SlashingAttack": 6,
+      "BluntAttack": 5
+    },
+    "dependsOn": [
+      {
+        "modid": "combatoverhaul"
+      }
+    ]
+  },
+  {
     "file": "armory:itemtypes/armor/plate-helmets.json",
     "path": "/behaviors/0/properties/ResistsByType/*-steel-riveted",
     "op": "replace",
     "value": {
       "PiercingAttack": 5,
-      "SlashingAttack": 6,
+      "SlashingAttack": 5,
       "BluntAttack": 3
     },
     "dependsOn": [
@@ -34,7 +49,7 @@
     "path": "/behaviors/0/properties/ResistsByType/*-steel-*",
     "op": "replace",
     "value": {
-      "PiercingAttack": 5,
+      "PiercingAttack": 6,
       "SlashingAttack": 6,
       "BluntAttack": 5
     },

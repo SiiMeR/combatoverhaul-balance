@@ -1,0 +1,87 @@
+﻿[
+  {
+    "file": "armory:itemtypes/weapons/sabre.json",
+    "op": "replace",
+    "path": "/attributes/OneHandedStance/Attack/DamageTypesByType",
+    "value": {
+      "*-*bronze": [
+        {
+          "Damage": {
+            "DamageType": "SlashingAttack",
+            "Tier": 2,
+            "Damage": 6
+          },
+          "Knockback": 1,
+          "DurabilityDamage": 1,
+          "Collider": [
+            0.6,
+            -0.3,
+            0.5,
+            2.7,
+            0.3,
+            0.5
+          ]
+        }
+      ],
+      "*-iron": [
+        {
+          "Damage": {
+            "DamageType": "SlashingAttack",
+            "Tier": 3,
+            "Damage": 6.5
+          },
+          "Knockback": 1,
+          "DurabilityDamage": 1,
+          "Collider": [
+            0.6,
+            -0.3,
+            0.5,
+            2.9,
+            0.3,
+            0.5
+          ]
+        }
+      ],
+      "*-meteoriciron": [
+        {
+          "Damage": {
+            "DamageType": "SlashingAttack",
+            "Tier": 4,
+            "Damage": 6.5,
+            "ArmorPiercingTier": 1
+          },
+          "Knockback": 1,
+          "DurabilityDamage": 1,
+          "Collider": [
+            0.6,
+            -0.3,
+            0.5,
+            2.9,
+            0.3,
+            0.5
+          ]
+        }
+      ],
+      "*-steel": [
+        {
+          "Damage": {
+            "DamageType": "SlashingAttack",
+            "Tier": 5,
+            "Damage": 7.0,
+            "ArmorPiercingTier": 1
+          },
+          "Knockback": 1,
+          "DurabilityDamage": 1,
+          "Collider": [
+            0.6,
+            -0.3,
+            0.5,
+            3.1,
+            0.2,
+            0.5
+          ]
+        }
+      ]
+    }
+  }
+]

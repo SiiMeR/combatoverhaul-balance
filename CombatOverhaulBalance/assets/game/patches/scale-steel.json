@@ -14,7 +14,7 @@
         "Face"
       ],
       "Resists": {
-        "PiercingAttack": 4,
+        "PiercingAttack": 6,
         "SlashingAttack": 6,
         "BluntAttack": 3
       },
@@ -58,7 +58,7 @@
         "Hands"
       ],
       "Resists": {
-        "PiercingAttack": 4,
+        "PiercingAttack": 6,
         "SlashingAttack": 6,
         "BluntAttack": 3
       },
@@ -101,7 +101,7 @@
         "Feet"
       ],
       "Resists": {
-        "PiercingAttack": 4,
+        "PiercingAttack": 6,
         "SlashingAttack": 6,
         "BluntAttack": 3
       },

@@ -1,0 +1,76 @@
+[
+  {
+    "file": "armory:itemtypes/armor/scale.json",
+    "path": "/behaviors/0/properties/ResistsByType/*-steel-*",
+    "op": "replace",
+    "value": {
+      "PiercingAttack": 6,
+      "SlashingAttack": 6,
+      "BluntAttack": 3
+    },
+    "dependsOn": [
+      {
+        "modid": "armory"
+      },
+      {
+        "modid": "anmitechco"
+      },
+      {
+        "modid": "combatoverhaul"
+      }
+    ]
+  },
+  {
+    "file": "armory:itemtypes/armor/scale.json",
+    "path": "/behaviors/0/properties/FlatReductionByType/*-steel-*",
+    "op": "replace",
+    "value": {
+      "PiercingAttack": 1,
+      "SlashingAttack": 1,
+      "BluntAttack": 1
+    },
+    "dependsOn": [
+      {
+        "modid": "armory"
+      },
+      {
+        "modid": "anmitechco"
+      },
+      {
+        "modid": "combatoverhaul"
+      }
+    ]
+  },
+  {
+    "file": "armory:itemtypes/armor/scale.json",
+    "path": "/behaviors/0/properties/PlayerStatsByType",
+    "op": "replace",
+    "value": {
+      "*-torso-*": {
+        "walkspeed": -0.05,
+        "manipulationSpeed": -0.02,
+        "steadyAim": -0.04,
+        "healingeffectivness": -0.03,
+        "hungerrate": 0.06
+      },
+      "*-armshands-*": {
+        "walkspeed": 0,
+        "manipulationSpeed": -0.07,
+        "steadyAim": -0.06,
+        "healingeffectivness": -0.03,
+        "hungerrate": 0.03
+      }
+    },
+    "dependsOn": [
+      {
+        "modid": "armory"
+      },
+      {
+        "modid": "anmitechco"
+      },
+      {
+        "modid": "combatoverhaul"
+      }
+    ]
+  }
+]

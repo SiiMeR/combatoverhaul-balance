@@ -5,8 +5,8 @@
     "op": "replace",
     "value": {
       "PiercingAttack": 6,
-      "SlashingAttack": 7,
-      "BluntAttack": 7
+      "SlashingAttack": 6,
+      "BluntAttack": 5
     },
     "dependsOn": [
       {
