@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "file": "game:itemtypes/wearable/seraph/armor.json",
     "path": "/behaviors/0/propertiesByType/armor-head-chain-steel/Resists",
@@ -49,6 +49,46 @@
       "PiercingAttack": 3,
       "SlashingAttack": 5,
       "BluntAttack": 2
+    },
+    "dependsOn": [
+      {
+        "modid": "armory"
+      }
+    ]
+  },
+  {
+    "file": "game:itemtypes/wearable/seraph/armor.json",
+    "op": "replace",
+    "path": "/behaviors/0/propertiesByType/armor-body-chain-steel/PlayerStats",
+    "value": {
+      "walkspeed": -0.06,
+      "manipulationSpeed": -0.09,
+      "steadyAim": -0.10,
+      "healingeffectivness": -0.09,
+      "hungerrate": 0.09
+    },
+    "dependsOn": [
+      {
+        "modid": "armory"
+      },
+      {
+        "modid": "anmitechco"
+      },
+      {
+        "modid": "combatoverhaul"
+      }
+    ]
+  },
+  {
+    "file": "game:itemtypes/wearable/seraph/armor.json",
+    "op": "replace",
+    "path": "/behaviors/0/propertiesByType/armor-legs-chain-steel/PlayerStats",
+    "value": {
+      "walkspeed": -0.02,
+      "manipulationSpeed": 0,
+      "steadyAim": 0,
+      "healingeffectivness": -0.06,
+      "hungerrate": 0.06
     },
     "dependsOn": [
       {

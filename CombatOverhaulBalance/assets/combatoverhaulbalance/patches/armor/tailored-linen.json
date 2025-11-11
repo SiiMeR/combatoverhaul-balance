@@ -1,0 +1,19 @@
+[
+  {
+    "file": "game:itemtypes/wearable/seraph/armor.json",
+    "op": "replace",
+    "path": "/behaviors/0/propertiesByType/armor-body-tailored-*-linen/PlayerStats",
+    "value": {"walkspeed": -0.04, "manipulationSpeed": -0.01, "steadyAim": -0.02, "healingeffectivness": -0.09, "hungerrate": 0.03},
+    "dependsOn": [
+      {
+        "modid": "armory"
+      },
+      {
+        "modid": "anmitechco"
+      },
+      {
+        "modid": "combatoverhaul"
+      }
+    ]
+  }
+]
