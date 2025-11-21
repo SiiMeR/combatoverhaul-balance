@@ -29,7 +29,7 @@
           "Damage": {
             "DamageType": "SlashingAttack",
             "Tier": 3,
-            "Damage": 3,
+            "Damage": 2.5,
             "ArmorPiercingTier": 1
           },
           "Knockback": 1,
@@ -49,7 +49,7 @@
           "Damage": {
             "DamageType": "SlashingAttack",
             "Tier": 4,
-            "Damage": 3.5,
+            "Damage": 3,
             "ArmorPiercingTier": 1
           },
           "Knockback": 1,
@@ -69,8 +69,8 @@
           "Damage": {
             "DamageType": "SlashingAttack",
             "Tier": 5,
-            "Damage": 3.5,
-            "ArmorPiercingTier": 1
+            "Damage": 3,
+            "ArmorPiercingTier": 2
           },
           "Knockback": 1,
           "DurabilityDamage": 1,
@@ -89,7 +89,7 @@
           "Damage": {
             "DamageType": "SlashingAttack",
             "Tier": 6,
-            "Damage": 4,
+            "Damage": 3.5,
             "ArmorPiercingTier": 2
           },
           "Knockback": 1,
