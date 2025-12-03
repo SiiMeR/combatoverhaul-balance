@@ -51,14 +51,16 @@
         "manipulationSpeed": -0.02,
         "steadyAim": -0.04,
         "healingeffectivness": -0.03,
-        "hungerrate": 0.06
+        "hungerrate": 0.06,
+        "jumpHeightMul": -0.075
       },
       "*-armshands-*": {
         "walkspeed": 0,
         "manipulationSpeed": -0.07,
         "steadyAim": -0.06,
         "healingeffectivness": -0.03,
-        "hungerrate": 0.03
+        "hungerrate": 0.03,
+        "jumpHeightMul": -0.075
       }
     },
     "dependsOn": [

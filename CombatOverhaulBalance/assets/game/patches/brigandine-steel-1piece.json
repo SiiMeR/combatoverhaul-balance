@@ -62,7 +62,8 @@
         "manipulationSpeed": -0.10,
         "steadyAim": -0.15,
         "healingeffectivness": -0.09,
-        "hungerrate": 0.09
+        "hungerrate": 0.09,
+        "jumpHeightMul": -0.1
       }
     },
     "dependsOn": [
@@ -100,7 +101,8 @@
         "manipulationSpeed": 0,
         "steadyAim": 0,
         "healingeffectivness": -0.06,
-        "hungerrate": 0.09
+        "hungerrate": 0.09,
+        "jumpHeightMul": -0.1
       }
     },
     "dependsOn": [

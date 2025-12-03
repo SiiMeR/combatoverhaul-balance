@@ -3,7 +3,7 @@
     "file": "game:itemtypes/wearable/seraph/armor.json",
     "op": "replace",
     "path": "/behaviors/0/propertiesByType/armor-body-chain-*bronze/PlayerStats",
-    "value": {"walkspeed": -0.06, "manipulationSpeed": -0.09, "steadyAim": -0.10, "healingeffectivness": -0.09, "hungerrate": 0.09},
+    "value": {"walkspeed": -0.06, "manipulationSpeed": -0.09, "steadyAim": -0.10, "healingeffectivness": -0.09, "hungerrate": 0.09, "jumpHeightMul": -0.1},
     "dependsOn": [
       {
         "modid": "armory"
@@ -20,7 +20,7 @@
     "file": "game:itemtypes/wearable/seraph/armor.json",
     "op": "replace",
     "path": "/behaviors/0/propertiesByType/armor-legs-chain-*bronze/PlayerStats",
-    "value": {"walkspeed": -0.02, "manipulationSpeed": 0, "steadyAim": 0, "healingeffectivness": -0.06, "hungerrate": 0.06},
+    "value": {"walkspeed": -0.02, "manipulationSpeed": 0, "steadyAim": 0, "healingeffectivness": -0.06, "hungerrate": 0.06, "jumpHeightMul": -0.1},
     "dependsOn": [
       {
         "modid": "armory"

@@ -46,5 +46,47 @@
         "modid": "combatoverhaul"
       }
     ]
+  },
+  {
+    "file": "armory:itemtypes/armor/chain.json",
+    "path": "/behaviors/0/properties/PlayerStatsByType",
+    "op": "replace",
+    "value": {
+      "*-torso-*": {
+        "walkspeed": -0.02,
+        "manipulationSpeed": -0.03,
+        "steadyAim": 0,
+        "healingeffectivness": -0.03,
+        "hungerrate": 0.03,
+        "jumpHeightMul": -0.1
+      },
+      "*-arms-*": {
+        "walkspeed": -0.02,
+        "manipulationSpeed": -0.03,
+        "steadyAim": -0.05,
+        "healingeffectivness": -0.03,
+        "hungerrate": 0.03,
+        "jumpHeightMul": -0.05
+      },
+      "*-hands-*": {
+        "walkspeed": -0.02,
+        "manipulationSpeed": -0.03,
+        "steadyAim": -0.05,
+        "healingeffectivness": -0.03,
+        "hungerrate": 0.03,
+        "jumpHeightMul": -0.05
+      }
+    },
+    "dependsOn": [
+      {
+        "modid": "armory"
+      },
+      {
+        "modid": "anmitechco"
+      },
+      {
+        "modid": "combatoverhaul"
+      }
+    ]
   }
 ]

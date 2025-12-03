@@ -69,35 +69,40 @@
         "manipulationSpeed": -0.05,
         "steadyAim": 0,
         "healingeffectivness": -0.04,
-        "hungerrate": 0.04
+        "hungerrate": 0.04,
+        "jumpHeightMul": -0.04
       },
       "*-arms-*": {
         "walkspeed": -0.02,
         "manipulationSpeed": -0.05,
         "steadyAim": -0.1,
         "healingeffectivness": -0.05,
-        "hungerrate": 0.05
+        "hungerrate": 0.05,
+        "jumpHeightMul": -0.04
       },
       "*-hands-*": {
         "walkspeed": -0.02,
         "manipulationSpeed": 0,
         "steadyAim": -0.15,
         "healingeffectivness": -0.05,
-        "hungerrate": 0.05
+        "hungerrate": 0.05,
+        "jumpHeightMul": -0.04
       },
       "*-legs-*": {
         "walkspeed": -0.02,
         "manipulationSpeed": 0,
         "steadyAim": 0,
         "healingeffectivness": -0.05,
-        "hungerrate": 0.05
+        "hungerrate": 0.05,
+        "jumpHeightMul": -0.04
       },
       "*-feet-*": {
         "walkspeed": -0.01,
         "manipulationSpeed": 0,
         "steadyAim": 0,
         "healingeffectivness": -0.05,
-        "hungerrate": 0.05
+        "hungerrate": 0.05,
+        "jumpHeightMul": -0.04
       }
     },
     "dependsOn": [
