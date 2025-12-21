@@ -8,9 +8,9 @@
         "Outer"
       ],
       "Zones": [
-        "Torso",
-        "Arms",
-        "Hands"
+        "Head",
+        "Neck",
+        "Face"
       ],
       "Resists": {
         "PiercingAttack": 6,
