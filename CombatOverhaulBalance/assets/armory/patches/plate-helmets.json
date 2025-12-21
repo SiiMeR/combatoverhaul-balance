@@ -16,12 +16,87 @@
   },
   {
     "file": "armory:itemtypes/armor/plate-helmets.json",
-    "path": "/behaviors/0/properties/ResistsByType/*-steel-riveted",
+    "path": "/behaviors/0/properties/ResistsByType/*-copper-*",
+    "op": "replace",
+    "value": {
+      "PiercingAttack": 4,
+      "SlashingAttack": 4,
+      "BluntAttack": 1
+    },
+    "dependsOn": [
+      {
+        "modid": "armory"
+      }
+    ]
+  },
+  {
+    "file": "armory:itemtypes/armor/plate-helmets.json",
+    "path": "/behaviors/0/properties/ResistsByType/*-*bronze-*",
     "op": "replace",
     "value": {
       "PiercingAttack": 5,
       "SlashingAttack": 5,
-      "BluntAttack": 3
+      "BluntAttack": 2
+    },
+    "dependsOn": [
+      {
+        "modid": "armory"
+      }
+    ]
+  },
+  {
+    "file": "armory:itemtypes/armor/plate-helmets.json",
+    "path": "/behaviors/0/properties/ResistsByType/*-gold-*",
+    "op": "replace",
+    "value": {
+      "PiercingAttack": 4,
+      "SlashingAttack": 4,
+      "BluntAttack": 1
+    },
+    "dependsOn": [
+      {
+        "modid": "armory"
+      }
+    ]
+  },
+  {
+    "file": "armory:itemtypes/armor/plate-helmets.json",
+    "path": "/behaviors/0/properties/ResistsByType/*-silver-*",
+    "op": "replace",
+    "value": {
+      "PiercingAttack": 4,
+      "SlashingAttack": 4,
+      "BluntAttack": 1
+    },
+    "dependsOn": [
+      {
+        "modid": "armory"
+      }
+    ]
+  },
+  {
+    "file": "armory:itemtypes/armor/plate-helmets.json",
+    "path": "/behaviors/0/properties/ResistsByType/*-copper-riveted",
+    "op": "replace",
+    "value": {
+      "PiercingAttack": 4,
+      "SlashingAttack": 4,
+      "BluntAttack": 1
+    },
+    "dependsOn": [
+      {
+        "modid": "armory"
+      }
+    ]
+  },
+  {
+    "file": "armory:itemtypes/armor/plate-helmets.json",
+    "path": "/behaviors/0/properties/ResistsByType/*-*bronze-riveted",
+    "op": "replace",
+    "value": {
+      "PiercingAttack": 4,
+      "SlashingAttack": 4,
+      "BluntAttack": 2
     },
     "dependsOn": [
       {
@@ -46,6 +121,66 @@
   },
   {
     "file": "armory:itemtypes/armor/plate-helmets.json",
+    "path": "/behaviors/0/properties/ResistsByType/*-steel-riveted",
+    "op": "replace",
+    "value": {
+      "PiercingAttack": 5,
+      "SlashingAttack": 5,
+      "BluntAttack": 3
+    },
+    "dependsOn": [
+      {
+        "modid": "armory"
+      }
+    ]
+  },
+  {
+    "file": "armory:itemtypes/armor/plate-helmets.json",
+    "path": "/behaviors/0/properties/ResistsByType/*-silver-riveted",
+    "op": "replace",
+    "value": {
+      "PiercingAttack": 4,
+      "SlashingAttack": 4,
+      "BluntAttack": 1
+    },
+    "dependsOn": [
+      {
+        "modid": "armory"
+      }
+    ]
+  },
+  {
+    "file": "armory:itemtypes/armor/plate-helmets.json",
+    "path": "/behaviors/0/properties/ResistsByType/*-gold-riveted",
+    "op": "replace",
+    "value": {
+      "PiercingAttack": 4,
+      "SlashingAttack": 4,
+      "BluntAttack": 1
+    },
+    "dependsOn": [
+      {
+        "modid": "armory"
+      }
+    ]
+  },
+  {
+    "file": "armory:itemtypes/armor/plate-helmets.json",
+    "path": "/behaviors/0/properties/ResistsByType/*-*iron-*",
+    "op": "replace",
+    "value": {
+      "PiercingAttack": 5,
+      "SlashingAttack": 5,
+      "BluntAttack": 4
+    },
+    "dependsOn": [
+      {
+        "modid": "armory"
+      }
+    ]
+  },
+  {
+    "file": "armory:itemtypes/armor/plate-helmets.json",
     "path": "/behaviors/0/properties/ResistsByType/*-steel-*",
     "op": "replace",
     "value": {
@@ -61,39 +196,115 @@
   },
   {
     "file": "armory:itemtypes/armor/plate-helmets.json",
-    "path": "/behaviors/0/properties/ResistsByType/*-*iron-*",
-    "op": "replace",
-    "value": {
-      "PiercingAttack": 4,
-      "SlashingAttack": 4,
-      "BluntAttack": 3
-    },
-    "dependsOn": [
-      {
-        "modid": "armory"
-      }
-    ]
-  },
-  {
-    "file": "armory:itemtypes/armor/plate-helmets.json",
     "path": "/behaviors/0/properties/PlayerStatsByType",
     "op": "replace",
     "value": {
-      "*-open": {
+      "*copper-light": {
+        "walkspeed": 0,
+        "manipulationSpeed": 0,
+        "steadyAim": -0.05,
+        "healingeffectivness": -0.06,
+        "hungerrate": 0.15
+      },
+      "*bronze-light": {
+        "walkspeed": 0,
+        "manipulationSpeed": 0,
+        "steadyAim": -0.05,
+        "healingeffectivness": -0.06,
+        "hungerrate": 0.15
+      },
+      "*iron-light": {
+        "walkspeed": 0,
+        "manipulationSpeed": 0,
+        "steadyAim": -0.05,
+        "healingeffectivness": -0.06,
+        "hungerrate": 0.15
+      },
+      "*steel-light": {
+        "walkspeed": 0,
+        "manipulationSpeed": 0,
+        "steadyAim": -0.05,
+        "healingeffectivness": -0.06,
+        "hungerrate": 0.15
+      },
+      "*copper-open": {
         "walkspeed": 0,
         "manipulationSpeed": 0,
         "steadyAim": 0,
         "healingeffectivness": -0.03,
         "hungerrate": 0.05
       },
-      "*-light": {
+      "*bronze-open": {
+        "walkspeed": 0,
+        "manipulationSpeed": 0,
+        "steadyAim": 0,
+        "healingeffectivness": -0.03,
+        "hungerrate": 0.05
+      },
+      "*iron-open": {
+        "walkspeed": 0,
+        "manipulationSpeed": 0,
+        "steadyAim": 0,
+        "healingeffectivness": -0.03,
+        "hungerrate": 0.05
+      },
+      "*steel-open": {
+        "walkspeed": 0,
+        "manipulationSpeed": 0,
+        "steadyAim": 0,
+        "healingeffectivness": -0.03,
+        "hungerrate": 0.1
+      },
+      "*silver-open": {
+        "walkspeed": 0,
+        "manipulationSpeed": 0,
+        "steadyAim": 0,
+        "healingeffectivness": -0.03,
+        "hungerrate": 0.1
+      },
+      "*gold-open": {
+        "walkspeed": 0,
+        "manipulationSpeed": 0,
+        "steadyAim": 0,
+        "healingeffectivness": -0.03,
+        "hungerrate": 0.1
+      },
+      "*copper-riveted": {
         "walkspeed": 0,
         "manipulationSpeed": 0,
         "steadyAim": -0.1,
         "healingeffectivness": -0.06,
         "hungerrate": 0.1
       },
-      "*-riveted": {
+      "*bronze-riveted": {
+        "walkspeed": 0,
+        "manipulationSpeed": 0,
+        "steadyAim": -0.1,
+        "healingeffectivness": -0.06,
+        "hungerrate": 0.1
+      },
+      "*iron-riveted": {
+        "walkspeed": 0,
+        "manipulationSpeed": 0,
+        "steadyAim": -0.1,
+        "healingeffectivness": -0.06,
+        "hungerrate": 0.1
+      },
+      "*steel-riveted": {
+        "walkspeed": 0,
+        "manipulationSpeed": 0,
+        "steadyAim": -0.1,
+        "healingeffectivness": -0.06,
+        "hungerrate": 0.1
+      },
+      "*silver-riveted": {
+        "walkspeed": 0,
+        "manipulationSpeed": 0,
+        "steadyAim": -0.1,
+        "healingeffectivness": -0.06,
+        "hungerrate": 0.1
+      },
+      "*gold-riveted": {
         "walkspeed": 0,
         "manipulationSpeed": 0,
         "steadyAim": -0.1,

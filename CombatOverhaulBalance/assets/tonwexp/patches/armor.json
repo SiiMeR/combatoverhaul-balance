@@ -1,0 +1,99 @@
+[
+  {
+    "file": "tonwexp:itemtypes/wearable/body.json",
+    "path": "/behaviors/0/properties/PlayerStatsByType",
+    "op": "replace",
+    "dependsOn": [
+      {
+        "modid": "armory"
+      },
+      {
+        "modid": "anmitechco"
+      },
+      {
+        "modid": "combatoverhaul"
+      }
+    ],
+    "value": {
+      "armor-body-segment-*iron": {
+        "walkspeed": -0.02,
+        "manipulationSpeed": -0.03,
+        "steadyAim": -0.1,
+        "healingeffectivness": -0.09,
+        "hungerrate": 0.05
+      },
+      "armor-legs-segment-*iron": {
+        "walkspeed": -0.09,
+        "manipulationSpeed": 0,
+        "steadyAim": 0,
+        "healingeffectivness": -0.06,
+        "hungerrate": 0.1,
+        "jumpHeightMul": -0.15
+      },
+      "armor-body-segment-steel": {
+        "walkspeed": -0.16,
+        "manipulationSpeed": -0.15,
+        "steadyAim": -0.2,
+        "healingeffectivness": -0.09,
+        "hungerrate": 0.15,
+        "jumpHeightMul": -0.15
+      },
+      "armor-legs-segment-steel": {
+        "walkspeed": -0.09,
+        "manipulationSpeed": 0,
+        "steadyAim": 0,
+        "healingeffectivness": -0.06,
+        "hungerrate": 0.1,
+        "jumpHeightMul": -0.15
+      },
+      "armor-body-samura-green": {
+        "walkspeed": -0.16,
+        "manipulationSpeed": -0.15,
+        "steadyAim": -0.2,
+        "healingeffectivness": -0.09,
+        "hungerrate": 0.15,
+        "jumpHeightMul": -0.15
+      },
+      "armor-legs-samura-green": {
+        "walkspeed": -0.09,
+        "manipulationSpeed": 0,
+        "steadyAim": 0,
+        "healingeffectivness": -0.06,
+        "hungerrate": 0.1,
+        "jumpHeightMul": -0.15
+      },
+      "armor-body-samura-yellow": {
+        "walkspeed": -0.16,
+        "manipulationSpeed": -0.15,
+        "steadyAim": -0.2,
+        "healingeffectivness": -0.09,
+        "hungerrate": 0.15,
+        "jumpHeightMul": -0.15
+      },
+      "armor-legs-samura-yellow": {
+        "walkspeed": -0.09,
+        "manipulationSpeed": 0,
+        "steadyAim": 0,
+        "healingeffectivness": -0.06,
+        "hungerrate": 0.1,
+        "jumpHeightMul": -0.15
+      },
+      "armor-body-samura-orange": {
+        "walkspeed": -0.16,
+        "manipulationSpeed": -0.15,
+        "steadyAim": -0.2,
+        "healingeffectivness": -0.09,
+        "hungerrate": 0.15,
+        "jumpHeightMul": -0.15
+      },
+      "armor-legs-samura-orange": {
+        "walkspeed": -0.09,
+        "manipulationSpeed": 0,
+        "steadyAim": 0,
+        "healingeffectivness": -0.06,
+        "hungerrate": 0.1,
+        "jumpHeightMul": -0.15
+      }
+    }
+  }
+]

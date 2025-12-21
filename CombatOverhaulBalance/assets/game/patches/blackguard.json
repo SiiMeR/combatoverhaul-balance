@@ -30,6 +30,24 @@
   {
     "file": "game:itemtypes/wearable/seraph/armor",
     "op": "replace",
+    "path": "/behaviors/0/propertiesByType/armor-head-antique-blackguard-pristine/PlayerStats",
+    "value": {
+      "walkspeed": 0,
+      "manipulationSpeed": 0,
+      "steadyAim": -0.1,
+      "healingeffectivness": -0.09,
+      "hungerrate": 0.15,
+      "nightHealingFactor": 0.03
+    },
+    "dependsOn": [
+      {
+        "modid": "combatoverhaul"
+      }
+    ]
+  },
+  {
+    "file": "game:itemtypes/wearable/seraph/armor",
+    "op": "replace",
     "path": "/behaviors/0/propertiesByType/armor-body-antique-blackguard-pristine/Resists",
     "value": {
       "PiercingAttack": 5,
@@ -61,11 +79,12 @@
     "path": "/behaviors/0/propertiesByType/armor-body-antique-blackguard-pristine/PlayerStats",
     "value": {
       "walkspeed": -0.12,
-      "manipulationSpeed": -0.10,
+      "manipulationSpeed": -0.15,
       "steadyAim": -0.1,
-      "healingeffectivness": -0.09,
+      "healingeffectivness": -0.18,
       "hungerrate": 0.15,
-      "jumpHeightMul": -0.15
+      "jumpHeightMul": -0.15,
+      "nightHealingFactor": 0.06
     },
     "dependsOn": [
       {
@@ -109,9 +128,10 @@
       "walkspeed": -0.04,
       "manipulationSpeed": 0,
       "steadyAim": 0,
-      "healingeffectivness": -0.06,
+      "healingeffectivness": -0.09,
       "hungerrate": 0.1,
-      "jumpHeightMul": -0.15
+      "jumpHeightMul": -0.15,
+      "nightHealingFactor": 0.03
     },
     "dependsOn": [
       {
