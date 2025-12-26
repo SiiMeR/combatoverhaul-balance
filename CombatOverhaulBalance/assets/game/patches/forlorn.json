@@ -35,7 +35,7 @@
       "walkspeed": 0,
       "manipulationSpeed": 0,
       "steadyAim": -0.15,
-      "healingeffectivness": -0.6,
+      "healingeffectivness": -0.06,
       "hungerrate": 0.1,
       "dayWalkSpeed": 0.01
     },
