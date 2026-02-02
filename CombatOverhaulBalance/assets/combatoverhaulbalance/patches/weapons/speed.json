@@ -1,0 +1,48 @@
+[
+  {
+    "file": "armory:itemtypes/weapons/sword-short.json",
+    "path": "/attributes/OneHandedStance/AttackSpeedMultiplier",
+    "op": "replace",
+    "value": 1.25,
+    "dependsOn": [
+      {
+        "modid": "armory"
+      },
+      {
+        "modid": "anmitechco"
+      }
+    ]
+  },
+  {
+    "file": "armory:itemtypes/weapons/sword-long.json",
+    "path": "/attributes/OneHandedStance",
+    "op": "addmerge",
+    "value": {
+      "AttackSpeedMultiplier": 1.15
+    },
+    "dependsOn": [
+      {
+        "modid": "armory"
+      },
+      {
+        "modid": "anmitechco"
+      }
+    ]
+  },
+  {
+    "file": "armory:itemtypes/weapons/sword-long.json",
+    "path": "/attributes/TwoHandedStance",
+    "op": "addmerge",
+    "value": {
+      "AttackSpeedMultiplier": 1.15
+    },
+    "dependsOn": [
+      {
+        "modid": "armory"
+      },
+      {
+        "modid": "anmitechco"
+      }
+    ]
+  }
+]

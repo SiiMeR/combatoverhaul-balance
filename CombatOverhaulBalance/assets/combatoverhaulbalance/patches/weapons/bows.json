@@ -6,8 +6,8 @@
     "value": {
       "*-crude": 1.3,
       "*-simple": 1.3,
-      "*-long": 2.4,
-      "*-recurve": 1.8
+      "*-long": 3,
+      "*-recurve": 2.2
     },
     "dependsOn": [
       {

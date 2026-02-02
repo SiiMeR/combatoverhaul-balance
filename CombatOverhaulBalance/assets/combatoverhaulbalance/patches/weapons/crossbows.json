@@ -59,5 +59,32 @@
         "modid": "maltiezcrossbows"
       }
     ]
+  },
+  {
+    "file": "maltiezcrossbows:itemtypes/crossbow.json",
+    "path": "/attributes/ReloadAnimationSpeedByType",
+    "op": "add",
+    "value": {
+      "*-simple-*": 1,
+      "*-stirrup-*": 1,
+      "*-latch-*": 1,
+      "*-goatsfoot-*": 1.15,
+      "*-windlass-*": 1
+    },
+    "dependsOn": [
+      {
+        "modid": "maltiezcrossbows"
+      }
+    ]
+  },
+  {
+    "file": "maltiezcrossbows:itemtypes/crossbow.json",
+    "path": "/attributes/ReloadAnimationSpeed",
+    "op": "remove",
+    "dependsOn": [
+      {
+        "modid": "maltiezcrossbows"
+      }
+    ]
   }
 ]

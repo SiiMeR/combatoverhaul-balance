@@ -9,7 +9,8 @@
           "Damage": {
             "DamageType": "PiercingAttack",
             "Tier": 3,
-            "Damage": 6
+            "Damage": 5,
+            "ArmorPiercingTier": 1
           },
           "Knockback": 2,
           "DurabilityDamage": 1,
@@ -28,7 +29,8 @@
           "Damage": {
             "DamageType": "PiercingAttack",
             "Tier": 4,
-            "Damage": 6.5
+            "Damage": 5.5,
+            "ArmorPiercingTier": 1
           },
           "Knockback": 2,
           "DurabilityDamage": 1,
@@ -47,7 +49,8 @@
           "Damage": {
             "DamageType": "PiercingAttack",
             "Tier": 5,
-            "Damage": 6.5
+            "Damage": 5.5,
+            "ArmorPiercingTier": 1
           },
           "Knockback": 2,
           "DurabilityDamage": 1,
@@ -66,7 +69,8 @@
           "Damage": {
             "DamageType": "PiercingAttack",
             "Tier": 5,
-            "Damage": 6.5
+            "Damage": 5.5,
+            "ArmorPiercingTier": 1
           },
           "Knockback": 2,
           "DurabilityDamage": 1,
@@ -85,7 +89,8 @@
           "Damage": {
             "DamageType": "PiercingAttack",
             "Tier": 5,
-            "Damage": 6.5
+            "Damage": 5.5,
+            "ArmorPiercingTier": 1
           },
           "Knockback": 2,
           "DurabilityDamage": 1,
@@ -104,7 +109,8 @@
           "Damage": {
             "DamageType": "PiercingAttack",
             "Tier": 6,
-            "Damage": 7
+            "Damage": 6,
+            "ArmorPiercingTier": 1
           },
           "Knockback": 2,
           "DurabilityDamage": 1,

@@ -48,7 +48,7 @@
           "Damage": {
             "DamageType": "SlashingAttack",
             "Tier": 6,
-            "Damage": 8,
+            "Damage": 8.5,
             "ArmorPiercingTier": 1
           },
           "Knockback": 1,

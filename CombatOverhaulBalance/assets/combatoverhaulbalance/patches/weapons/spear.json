@@ -7,52 +7,61 @@
       "*-flint": {
         "DamageType": "PiercingAttack",
         "Tier": 1,
-        "Damage": 3
+        "Damage": 2,
+        "ArmorPiercingTier": 1
       },
       "*-obsidian": {
         "DamageType": "PiercingAttack",
         "Tier": 1,
-        "Damage": 3
+        "Damage": 2,
+        "ArmorPiercingTier": 1
       },
       "*-copper": {
         "DamageType": "PiercingAttack",
         "Tier": 2,
-        "Damage": 4.5
+        "Damage": 3,
+        "ArmorPiercingTier": 1
       },
       "*-*bronze": {
         "DamageType": "PiercingAttack",
         "Tier": 3,
-        "Damage": 6
+        "Damage": 4.5,
+        "ArmorPiercingTier": 1
       },
       "*-iron": {
         "DamageType": "PiercingAttack",
         "Tier": 4,
-        "Damage": 6.5
+        "Damage": 5,
+        "ArmorPiercingTier": 1
       },
       "*-ornategold": {
         "DamageType": "PiercingAttack",
         "Tier": 4,
-        "Damage": 6.5
+        "Damage": 5,
+        "ArmorPiercingTier": 1
       },
       "*-ornatesilver": {
         "DamageType": "PiercingAttack",
         "Tier": 4,
-        "Damage": 6.5
+        "Damage": 5,
+        "ArmorPiercingTier": 1
       },
       "*-meteoriciron": {
         "DamageType": "PiercingAttack",
         "Tier": 5,
-        "Damage": 6.5
+        "Damage": 5,
+        "ArmorPiercingTier": 1
       },
       "*-steel": {
         "DamageType": "PiercingAttack",
         "Tier": 6,
-        "Damage": 7
+        "Damage": 5.5,
+        "ArmorPiercingTier": 1
       },
       "*": {
         "DamageType": "PiercingAttack",
         "Tier": 1,
-        "Damage": 3
+        "Damage": 2
       }
     },
     "dependsOn": [
@@ -69,52 +78,62 @@
       "*-flint": {
         "DamageType": "PiercingAttack",
         "Tier": 1,
-        "Damage": 4
+        "Damage": 3,
+        "ArmorPiercingTier": 1
       },
       "*-obsidian": {
         "DamageType": "PiercingAttack",
         "Tier": 1,
-        "Damage": 4
+        "Damage": 3,
+        "ArmorPiercingTier": 1
       },
       "*-copper": {
         "DamageType": "PiercingAttack",
         "Tier": 2,
-        "Damage": 5.5
+        "Damage": 4,
+        "ArmorPiercingTier": 1
       },
       "*-*bronze": {
         "DamageType": "PiercingAttack",
         "Tier": 3,
-        "Damage": 7
+        "Damage": 5,
+        "ArmorPiercingTier": 1
       },
       "*-iron": {
         "DamageType": "PiercingAttack",
         "Tier": 4,
-        "Damage": 7.5
+        "Damage": 5.5,
+        "ArmorPiercingTier": 1
       },
       "*-ornategold": {
         "DamageType": "PiercingAttack",
         "Tier": 4,
-        "Damage": 7.5
+        "Damage": 5.5,
+        "ArmorPiercingTier": 1
       },
       "*-ornatesilver": {
         "DamageType": "PiercingAttack",
         "Tier": 4,
-        "Damage": 7.5
+        "Damage": 5.5,
+        "ArmorPiercingTier": 1
       },
       "*-meteoriciron": {
         "DamageType": "PiercingAttack",
         "Tier": 5,
-        "Damage": 7.5
+        "Damage": 5.5,
+        "ArmorPiercingTier": 1
       },
       "*-steel": {
         "DamageType": "PiercingAttack",
         "Tier": 6,
-        "Damage": 8
+        "Damage": 6,
+        "ArmorPiercingTier": 1
       },
       "*": {
         "DamageType": "PiercingAttack",
         "Tier": 1,
-        "Damage": 4
+        "Damage": 3,
+        "ArmorPiercingTier": 1
       }
     },
     "dependsOn": [
